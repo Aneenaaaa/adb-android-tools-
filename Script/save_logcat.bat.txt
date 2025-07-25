@@ -1,0 +1,26 @@
+@echo off
+setlocal
+
+:: Get current timestamp
+for /f "tokens=1-4 delims=/ " %%a in ("%date%") do (
+    set mm=%%a
+    set dd=%%b
+    set yyyy=%%c
+)
+for /f "tokens=1-2 delims=: " %%e in ("%time%") do (
+    set hh=%%e
+    set min=%%f
+)
+
+:: Remove invalid filename characters
+set hh=%hh: =0%
+set timestamp=%yyyy%-%mm%-%dd%_%hh%-%min%
+
+:: Set output filename
+set filename=logcat_%timestamp%.txt
+
+echo Saving logcat to %filename%...
+adb logcat -d > %filename%
+
+echo Done.
+pause

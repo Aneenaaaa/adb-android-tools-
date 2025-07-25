@@ -1,0 +1,857 @@
+--------- beginning of main
+07-25 12:14:11.734 10465 10465 I lipkart.android: Using CollectorTypeCMC GC.
+07-25 12:14:11.736 10465 10465 E lipkart.android: Not starting debugger since process cannot load the jdwp agent.
+07-25 12:14:11.737 10465 10465 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+07-25 12:14:11.739 10465 10465 D ActivityThread: setConscryptValidator
+07-25 12:14:11.739 10465 10465 D ActivityThread: setConscryptValidator - put
+07-25 12:14:11.743 10465 10465 D CompatChangeReporter: Compat change id reported: 242716250; UID 10347; state: ENABLED
+07-25 12:14:11.745 10465 10465 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+07-25 12:14:11.761 10465 10465 W ziparchive: Unable to open '/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/split_config.arm64_v8a.dm': No such file or directory
+07-25 12:14:11.761 10465 10465 W ziparchive: Unable to open '/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/split_config.arm64_v8a.dm': No such file or directory
+07-25 12:14:11.761 10465 10465 W lipkart.android: Entry not found
+07-25 12:14:11.761 10465 10465 W ziparchive: Unable to open '/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/split_config.xxhdpi.dm': No such file or directory
+07-25 12:14:11.761 10465 10465 W ziparchive: Unable to open '/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/split_config.xxhdpi.dm': No such file or directory
+07-25 12:14:11.762 10465 10465 W lipkart.android: Entry not found
+07-25 12:14:11.762 10465 10465 D nativeloader: Configuring clns-7 for other apk /data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/base.apk:/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/split_config.arm64_v8a.apk:/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/split_config.xxhdpi.apk:/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/split_juspay_sdk.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/lib/arm64:/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/base.apk!/lib/arm64-v8a:/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/split_config.arm64_v8a.apk!/lib/arm64-v8a:/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/split_config.xxhdpi.apk!/lib/arm64-v8a:/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-Dlwdrb
+07-25 12:14:11.766 10465 10465 V GraphicsEnvironment: Currently set values for:
+07-25 12:14:11.766 10465 10465 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+07-25 12:14:11.766 10465 10465 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+07-25 12:14:11.766 10465 10465 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+07-25 12:14:11.766 10465 10465 V GraphicsEnvironment: App is not on the allowlist for updatable production driver.
+07-25 12:14:11.766 10465 10465 I LoadedApk: No resource references to update in package com.flipkart.android.cameramodule
+07-25 12:14:11.766 10465 10465 I LoadedApk: No resource references to update in package com.flipkart.android.juspay_sdk
+07-25 12:14:11.768 10465 10465 D nativeloader: Load /data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/lib/arm64/libmyjni.so using ns clns-7 from class loader (caller=/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/base.apk): ok
+07-25 12:14:11.769 10465 10465 I MultiDex: VM with version 2.1.0 has multidex support
+07-25 12:14:11.769 10465 10465 I MultiDex: Installing application
+07-25 12:14:11.769 10465 10465 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+07-25 12:14:11.771 10465 10465 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+07-25 12:14:11.772 10465 10465 I FirebaseCrashlytics: Initializing Firebase Crashlytics 18.3.2 for com.flipkart.android
+07-25 12:14:11.778 10465 10465 I FirebaseInitProvider: FirebaseApp initialization successful
+07-25 12:14:11.779 10465 10485 W lipkart.android: ClassLoaderContext classpath size mismatch. expected=1, found=0 (DLC[];PCL[base.apk*129399461]{PCL[/system/framework/org.apache.http.legacy.jar*3637333363]#PCL[/system/framework/com.android.media.remotedisplay.jar*2042759013]#PCL[/system/framework/com.android.location.provider.jar*3414091812]#PCL[/system/system_ext/framework/org.carconnectivity.android.digitalkey.rangingintent.jar*560278203]#PCL[/system/system_ext/framework/org.carconnectivity.android.digitalkey.secureelement.jar*3277496667]#PCL[/system_ext/framework/org.carconnectivity.android.digitalkey.timesync.jar*1887653037]#PCL[/system_ext/framework/androidx.window.extensions.jar*2819270572]#PCL[/system_ext/framework/androidx.window.sidecar.jar*2841927739]} | DLC[];PCL[])
+07-25 12:14:11.779 10465 10465 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+07-25 12:14:11.780 10465 10485 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:86 and remote module com.google.android.gms.measurement.dynamite:153
+07-25 12:14:11.780 10465 10485 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 153
+07-25 12:14:11.780 10465 10485 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+07-25 12:14:11.781 10465 10496 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+07-25 12:14:11.782 10465 10496 D nativeloader: Configuring clns-8 for other apk /system/framework/com.android.media.remotedisplay.jar. target_sdk_version=36, uses_libraries=ALL, library_path=/data/app/~~GqtWo0Gc61GSIVx_jA18pw==/com.google.android.gms-OYr0zzn1awVLqVPTAlg-Vw==/lib/arm64:/data/app/~~GqtWo0Gc61GSIVx_jA18pw==/com.google.android.gms-OYr0zzn1awVLqVPTAlg-Vw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+07-25 12:14:11.782 10465 10496 D nativeloader: Extending system_exposed_libraries: libhumantracking.arcsoft.so:libface_recognition.arcsoft.so:libpic_best.arcsoft.so:libPortraitDistortionCorrection.arcsoft.so:libPortraitDistortionCorrectionCali.arcsoft.so:libface_landmark.arcsoft.so:libFacialStickerEngine.arcsoft.so:libfrtracking_engine.arcsoft.so:libFaceRecognition.arcsoft.so:libveengine.arcsoft.so:lib_pet_detection.arcsoft.so:libae_bracket_hdr.arcsoft.so:libdigital_tele_scope.arcsoft.so:libdigital_tele_scope_rawsr.arcsoft.so:libsf_tetra_enhance.arcsoft.so:libmf_bayer_enhance.arcsoft.so:libhybrid_high_dynamic_range.arcsoft.so:libimage_enhancement.arcsoft.so:libobjectcapture_jni.arcsoft.so:libobjectcapture.arcsoft.so:libFacialAttributeDetection.arcsoft.so:libmultisourceseparator.audio.samsung.so:libaudiomirroring_jni.audiomirroring.samsung.so:libBeauty_v4.camera.samsung.so:libexifa.camera.samsung.so:libjpega.camera.samsung.so:libOpenCv.camera.samsung.so:libaifrcInterface.camera.samsung.so:libC2paDps.camera.samsung.so:libVideoClassifier.camera.samsung.so:l
+07-25 12:14:11.784 10465 10496 D nativeloader: Configuring clns-9 for other apk /system/framework/com.android.location.provider.jar. target_sdk_version=36, uses_libraries=ALL, library_path=/data/app/~~GqtWo0Gc61GSIVx_jA18pw==/com.google.android.gms-OYr0zzn1awVLqVPTAlg-Vw==/lib/arm64:/data/app/~~GqtWo0Gc61GSIVx_jA18pw==/com.google.android.gms-OYr0zzn1awVLqVPTAlg-Vw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+07-25 12:14:11.784 10465 10496 D nativeloader: Extending system_exposed_libraries: libhumantracking.arcsoft.so:libface_recognition.arcsoft.so:libpic_best.arcsoft.so:libPortraitDistortionCorrection.arcsoft.so:libPortraitDistortionCorrectionCali.arcsoft.so:libface_landmark.arcsoft.so:libFacialStickerEngine.arcsoft.so:libfrtracking_engine.arcsoft.so:libFaceRecognition.arcsoft.so:libveengine.arcsoft.so:lib_pet_detection.arcsoft.so:libae_bracket_hdr.arcsoft.so:libdigital_tele_scope.arcsoft.so:libdigital_tele_scope_rawsr.arcsoft.so:libsf_tetra_enhance.arcsoft.so:libmf_bayer_enhance.arcsoft.so:libhybrid_high_dynamic_range.arcsoft.so:libimage_enhancement.arcsoft.so:libobjectcapture_jni.arcsoft.so:libobjectcapture.arcsoft.so:libFacialAttributeDetection.arcsoft.so:libmultisourceseparator.audio.samsung.so:libaudiomirroring_jni.audiomirroring.samsung.so:libBeauty_v4.camera.samsung.so:libexifa.camera.samsung.so:libjpega.camera.samsung.so:libOpenCv.camera.samsung.so:libaifrcInterface.camera.samsung.so:libC2paDps.camera.samsung.so:libVideoClassifier.camera.samsung.so:l
+07-25 12:14:11.786 10465 10465 D CompatChangeReporter: Compat change id reported: 247079863; UID 10347; state: ENABLED
+07-25 12:14:11.786 10465 10496 D nativeloader: Configuring clns-10 for other apk /system/system_ext/framework/org.carconnectivity.android.digitalkey.rangingintent.jar. target_sdk_version=36, uses_libraries=ALL, library_path=/data/app/~~GqtWo0Gc61GSIVx_jA18pw==/com.google.android.gms-OYr0zzn1awVLqVPTAlg-Vw==/lib/arm64:/data/app/~~GqtWo0Gc61GSIVx_jA18pw==/com.google.android.gms-OYr0zzn1awVLqVPTAlg-Vw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+07-25 12:14:11.786 10465 10496 D nativeloader: Extending system_exposed_libraries: libhumantracking.arcsoft.so:libface_recognition.arcsoft.so:libpic_best.arcsoft.so:libPortraitDistortionCorrection.arcsoft.so:libPortraitDistortionCorrectionCali.arcsoft.so:libface_landmark.arcsoft.so:libFacialStickerEngine.arcsoft.so:libfrtracking_engine.arcsoft.so:libFaceRecognition.arcsoft.so:libveengine.arcsoft.so:lib_pet_detection.arcsoft.so:libae_bracket_hdr.arcsoft.so:libdigital_tele_scope.arcsoft.so:libdigital_tele_scope_rawsr.arcsoft.so:libsf_tetra_enhance.arcsoft.so:libmf_bayer_enhance.arcsoft.so:libhybrid_high_dynamic_range.arcsoft.so:libimage_enhancement.arcsoft.so:libobjectcapture_jni.arcsoft.so:libobjectcapture.arcsoft.so:libFacialAttributeDetection.arcsoft.so:libmultisourceseparator.audio.samsung.so:libaudiomirroring_jni.audiomirroring.samsung.so:libBeauty_v4.camera.samsung.so:libexifa.camera.samsung.so:libjpega.camera.samsung.so:libOpenCv.camera.samsung.so:libaifrcInterface.camera.samsung.so:libC2paDps.camera.samsung.so:libVideoClassifier.camera.samsung.so:l
+07-25 12:14:11.787 10465 10496 D nativeloader: Configuring clns-11 for other apk /system/system_ext/framework/org.carconnectivity.android.digitalkey.secureelement.jar. target_sdk_version=36, uses_libraries=ALL, library_path=/data/app/~~GqtWo0Gc61GSIVx_jA18pw==/com.google.android.gms-OYr0zzn1awVLqVPTAlg-Vw==/lib/arm64:/data/app/~~GqtWo0Gc61GSIVx_jA18pw==/com.google.android.gms-OYr0zzn1awVLqVPTAlg-Vw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+07-25 12:14:11.787 10465 10496 D nativeloader: Extending system_exposed_libraries: libhumantracking.arcsoft.so:libface_recognition.arcsoft.so:libpic_best.arcsoft.so:libPortraitDistortionCorrection.arcsoft.so:libPortraitDistortionCorrectionCali.arcsoft.so:libface_landmark.arcsoft.so:libFacialStickerEngine.arcsoft.so:libfrtracking_engine.arcsoft.so:libFaceRecognition.arcsoft.so:libveengine.arcsoft.so:lib_pet_detection.arcsoft.so:libae_bracket_hdr.arcsoft.so:libdigital_tele_scope.arcsoft.so:libdigital_tele_scope_rawsr.arcsoft.so:libsf_tetra_enhance.arcsoft.so:libmf_bayer_enhance.arcsoft.so:libhybrid_high_dynamic_range.arcsoft.so:libimage_enhancement.arcsoft.so:libobjectcapture_jni.arcsoft.so:libobjectcapture.arcsoft.so:libFacialAttributeDetection.arcsoft.so:libmultisourceseparator.audio.samsung.so:libaudiomirroring_jni.audiomirroring.samsung.so:libBeauty_v4.camera.samsung.so:libexifa.camera.samsung.so:libjpega.camera.samsung.so:libOpenCv.camera.samsung.so:libaifrcInterface.camera.samsung.so:libC2paDps.camera.samsung.so:libVideoClassifier.camera.samsung.so:l
+07-25 12:14:11.788 10465 10497 D CompatChangeReporter: Compat change id reported: 253665015; UID 10347; state: ENABLED
+07-25 12:14:11.788 10465 10496 W ziparchive: Unable to open '/system_ext/framework/org.carconnectivity.android.digitalkey.timesync.dm': No such file or directory
+07-25 12:14:11.788 10465 10496 W ziparchive: Unable to open '/system_ext/framework/org.carconnectivity.android.digitalkey.timesync.dm': No such file or directory
+07-25 12:14:11.789 10465 10496 D nativeloader: Configuring clns-12 for other apk /system_ext/framework/org.carconnectivity.android.digitalkey.timesync.jar. target_sdk_version=36, uses_libraries=ALL, library_path=/data/app/~~GqtWo0Gc61GSIVx_jA18pw==/com.google.android.gms-OYr0zzn1awVLqVPTAlg-Vw==/lib/arm64:/data/app/~~GqtWo0Gc61GSIVx_jA18pw==/com.google.android.gms-OYr0zzn1awVLqVPTAlg-Vw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+07-25 12:14:11.789 10465 10496 D nativeloader: Extending system_exposed_libraries: libhumantracking.arcsoft.so:libface_recognition.arcsoft.so:libpic_best.arcsoft.so:libPortraitDistortionCorrection.arcsoft.so:libPortraitDistortionCorrectionCali.arcsoft.so:libface_landmark.arcsoft.so:libFacialStickerEngine.arcsoft.so:libfrtracking_engine.arcsoft.so:libFaceRecognition.arcsoft.so:libveengine.arcsoft.so:lib_pet_detection.arcsoft.so:libae_bracket_hdr.arcsoft.so:libdigital_tele_scope.arcsoft.so:libdigital_tele_scope_rawsr.arcsoft.so:libsf_tetra_enhance.arcsoft.so:libmf_bayer_enhance.arcsoft.so:libhybrid_high_dynamic_range.arcsoft.so:libimage_enhancement.arcsoft.so:libobjectcapture_jni.arcsoft.so:libobjectcapture.arcsoft.so:libFacialAttributeDetection.arcsoft.so:libmultisourceseparator.audio.samsung.so:libaudiomirroring_jni.audiomirroring.samsung.so:libBeauty_v4.camera.samsung.so:libexifa.camera.samsung.so:libjpega.camera.samsung.so:libOpenCv.camera.samsung.so:libaifrcInterface.camera.samsung.so:libC2paDps.camera.samsung.so:libVideoClassifier.camera.samsung.so:l
+07-25 12:14:11.789 10465 10501 E ADBMobile: ADBMobile Error : Wearable - Failed to load class com.adobe.mobile.ConfigSynchronizer
+07-25 12:14:11.790 10465 10496 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+07-25 12:14:11.790 10465 10496 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+--------- beginning of system
+07-25 12:14:11.791 10465 10465 D ActivityThread: com.flipkart.android will use render engine as VK
+07-25 12:14:11.792 10465 10465 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+07-25 12:14:11.796 10465 10516 D HWUI    : CacheManager constructor. deviceInfo=(1080, 1920)
+07-25 12:14:11.796 10465 10516 D vulkan  : searching for layers in '/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/lib/arm64'
+07-25 12:14:11.797 10465 10516 D vulkan  : searching for layers in '/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/base.apk!/lib/arm64-v8a'
+07-25 12:14:11.797 10465 10516 D vulkan  : searching for layers in '/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/split_config.arm64_v8a.apk!/lib/arm64-v8a'
+07-25 12:14:11.797 10465 10516 D vulkan  : searching for layers in '/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/split_config.xxhdpi.apk!/lib/arm64-v8a'
+07-25 12:14:11.797 10465 10516 D vulkan  : searching for layers in '/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/split_juspay_sdk.apk!/lib/arm64-v8a'
+07-25 12:14:11.798 10465 10516 V XGL     : ----------------------------------------------------------------------
+07-25 12:14:11.798 10465 10516 V XGL     : SUMD version compiled date     = 2025-03-11 10:23 - KST
+07-25 12:14:11.798 10465 10516 V XGL     : SUMD version revision number   = e5014ade39
+07-25 12:14:11.798 10465 10516 V XGL     : SUMD version info              = Driver version: 24.3.9, git hash: e5014ade39
+07-25 12:14:11.798 10465 10516 V XGL     : ----------------------------------------------------------------------
+07-25 12:14:11.798 10465 10516 V XGL     : Entering: Create
+07-25 12:14:11.799 10465 10508 E newrelic: setEntity_guid: invalid entity guid value!
+07-25 12:14:11.803 10465 10505 E lipkart.android: Invalid resource ID 0x00000000.
+07-25 12:14:11.803 10465 10465 I DecorView: setWindowBackground: isPopOver=false color=ffffffff d=android.graphics.drawable.ColorDrawable@bb9e31a
+07-25 12:14:11.803 10465 10502 W newrelic: Analytics controller is not initialized!
+07-25 12:14:11.804 10465 10508 I newrelic: Loaded configuration: HarvestConfiguration{collect_network_errors=true, cross_process_id='null', data_report_period=60, data_token=[1588751852, 1589018547], error_limit=50, report_max_transaction_age=600, report_max_transaction_count=1000, response_body_limit=2048, server_timestamp=0, stack_trace_limit=100, activity_trace_max_size=65535, activity_trace_max_report_attempts=1, activity_trace_min_utilization=0.30000001192092896, at_capture=ActivityTraceConfiguration{maxTotalTraceCount=1}, priority_encoding_key=d67afc830dab717fd163bfcb0b8b88423e9a1a3b, account_id=3700279, application_id=, trusted_account_key=6295286, entity_guid=MzcwMDI3OXxNT0JJTEV8QVBQTElDQVRJT058MTU4ODc1MTg1Mg, remote_configuration=com.newrelic.agent.android.RemoteConfiguration@dcb4517, request_headers_map={NR-AgentConfiguration=AQAAAZgNOvtQ, NR-Session=BrkBQH8UIrB2ADh2N162f7MAAAEBLCQoAAAAHQECBF6ybezIAAAAAWh4kKYDAAU3LjQuMAAAAAhGbGlwa2FydA}}
+07-25 12:14:11.805 10465 10508 I newrelic: Application state monitor has started
+07-25 12:14:11.805 10465 10465 I PlayCore: UID: [10347]  PID: [10465] AppUpdateService : requestUpdateInfo(com.flipkart.android)
+07-25 12:14:11.805 10465 10465 I newrelic: newrelic: {level=INFO,tag=PlayCore,message=UID: [10347]  PID: [10465] AppUpdateService : requestUpdateInfo(com.flipkart.android)}
+07-25 12:14:11.806 10465 10526 I PlayCore: UID: [10347]  PID: [10465] AppUpdateService : Initiate binding to the service.
+07-25 12:14:11.806 10465 10526 I newrelic: newrelic: {level=INFO,tag=PlayCore,message=UID: [10347]  PID: [10465] AppUpdateService : Initiate binding to the service.}
+07-25 12:14:11.813 10465 10496 W lipkart.android: Suspending all threads took: 5.089ms
+07-25 12:14:11.814 10465 10513 V SoLoader: Init System Loader delegate
+07-25 12:14:11.815 10465 10505 W newrelic: Analytics controller is not enabled!
+07-25 12:14:11.815 10465 10512 W newrelic: Analytics controller is not enabled!
+07-25 12:14:11.816 10465 10465 W newrelic: Analytics controller is not enabled!
+07-25 12:14:11.816 10465 10505 W newrelic: Analytics controller is not enabled!
+07-25 12:14:11.817 10465 10505 W newrelic: Analytics controller is not enabled!
+07-25 12:14:11.818 10465 10505 W newrelic: Analytics controller is not enabled!
+07-25 12:14:11.818 10465 10465 I ViewRootImpl: dVRR is disabled
+07-25 12:14:11.819 10465 10465 D HardwareRenderer: onDisplayChanged. displayId=0 current wxh=1080x2340 mLargest wxh=0x0
+07-25 12:14:11.819 10465 10465 D HardwareRenderer: Set largestWidth and largestHeight as logical resolution. (1080x2340)
+07-25 12:14:11.819 10465 10505 W newrelic: Analytics controller is not enabled!
+07-25 12:14:11.819 10465 10505 W newrelic: Analytics controller is not enabled!
+07-25 12:14:11.820 10465 10505 W newrelic: Analytics controller is not enabled!
+07-25 12:14:11.821 10465 10516 I XGL     : ShaderCache::PopulateIndexMap : 240/240 passed, result: 1
+07-25 12:14:11.821 10465 10513 D nativeloader: Load /data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/lib/arm64/libreactnativejni.so using ns clns-7 from class loader (caller=/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/base.apk): ok
+07-25 12:14:11.821 10465 10496 D nativeloader: Configuring clns-13 for other apk /data/app/~~GqtWo0Gc61GSIVx_jA18pw==/com.google.android.gms-OYr0zzn1awVLqVPTAlg-Vw==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~GqtWo0Gc61GSIVx_jA18pw==/com.google.android.gms-OYr0zzn1awVLqVPTAlg-Vw==/lib/arm64:/data/app/~~GqtWo0Gc61GSIVx_jA18pw==/com.google.android.gms-OYr0zzn1awVLqVPTAlg-Vw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+07-25 12:14:11.821 10465 10516 V XGL     : Exiting: Create
+07-25 12:14:11.821 10465 10505 W newrelic: Analytics controller is not enabled!
+07-25 12:14:11.821 10465 10485 W System  : ClassLoader referenced unknown path: 
+07-25 12:14:11.822 10465 10485 D nativeloader: Configuring clns-14 for other apk . target_sdk_version=36, uses_libraries=, library_path=/data/app/~~GqtWo0Gc61GSIVx_jA18pw==/com.google.android.gms-OYr0zzn1awVLqVPTAlg-Vw==/lib/arm64:/data/app/~~GqtWo0Gc61GSIVx_jA18pw==/com.google.android.gms-OYr0zzn1awVLqVPTAlg-Vw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+07-25 12:14:11.822 10465 10505 W newrelic: Analytics controller is not enabled!
+07-25 12:14:11.823 10465 10505 W newrelic: Analytics controller is not enabled!
+07-25 12:14:11.824 10465 10505 W newrelic: Analytics controller is not enabled!
+07-25 12:14:11.824 10465 10505 W newrelic: Analytics controller is not enabled!
+07-25 12:14:11.824 10465 10516 D HWUI    : setMaxSurfaceArea requested wxh=(1080,2340) requestedSurfaceArea(2527200) mMaxSurfaceArea(2073600)
+07-25 12:14:11.825 10465 10516 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+07-25 12:14:11.825 10465 10485 W lipkart.android: ClassLoaderContext classpath size mismatch. expected=1, found=2 (DLC[];PCL[base.apk*129399461]{PCL[/system/framework/org.apache.http.legacy.jar*3637333363]#PCL[/system/framework/com.android.media.remotedisplay.jar*2042759013]#PCL[/system/framework/com.android.location.provider.jar*3414091812]#PCL[/system/system_ext/framework/org.carconnectivity.android.digitalkey.rangingintent.jar*560278203]#PCL[/system/system_ext/framework/org.carconnectivity.android.digitalkey.secureelement.jar*3277496667]#PCL[/system_ext/framework/org.carconnectivity.android.digitalkey.timesync.jar*1887653037]#PCL[/system_ext/framework/androidx.window.extensions.jar*2819270572]#PCL[/system_ext/framework/androidx.window.sidecar.jar*2841927739]} | DLC[];PCL[/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/base.apk*102233872:/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/split_juspay_sdk.apk*2460384389]{PCL[/system/framework/org.apache.http.legacy.jar*3637333363]})
+07-25 12:14:11.825 10465 10505 W newrelic: Analytics controller is not enabled!
+07-25 12:14:11.827 10465 10465 D InputTransport: Input channel constructed: '2ce2d89', fd=152
+07-25 12:14:11.828 10465 10465 I InsetsController: onStateChanged: host=com.flipkart.android/com.flipkart.android.SplashActivity, from=android.view.ViewRootImpl.setView:1999, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 84 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(515, 0 - 566, 84), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.066666666666667 V 29.86666666666667 H 9.066666666666667 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=101, center=Point(101, 101)}, RoundedCorner{position=TopRight, radius=101, center=Point(979, 101)}, RoundedCorner{position=BottomRight, radius=101, center=Point(979, 2239)}, RoundedCorner{position=BottomLeft, radius=101, center=Point(101, 2239)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 84) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1440 displayHeight=3120 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {88510001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {88510004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {88510005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {88510006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {88510024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {908b0000 mType=statusBars mFrame=[0,0][1080,84] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {908b0005 mType=mandatorySystemGestures mFrame=[0,0][1080,118] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {908b0006 mType=tappableElement mFrame=[0,0][1080,84] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,84] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+07-25 12:14:11.828 10465 10465 I VRI[SplashActivity]@66bffb: synced displayState. AttachInfo displayState=2
+07-25 12:14:11.828 10465 10465 I VRI[SplashActivity]@66bffb: setView = com.android.internal.policy.DecorView@a8cd8ea IsHRR=false TM=true
+07-25 12:14:11.828 10465 10465 I IDS_TAG : Starting IDS observe window
+07-25 12:14:11.828 10465 10465 I IDS_TAG : Getting Shared Preference for com.flipkart.android.init.FlipkartApplication@b4e88e2 uid = 10347
+07-25 12:14:11.831 10465 10465 I IDS_TAG : App com.flipkart.android.init.FlipkartApplication@b4e88e2 in NO_IDS list
+07-25 12:14:11.832 10465 10496 I DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:250505301
+07-25 12:14:11.832 10465 10496 I newrelic: newrelic: {level=INFO,tag=DynamiteModule,message=Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:250505301}
+07-25 12:14:11.832 10465 10496 I DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 250505301
+07-25 12:14:11.832 10465 10496 I newrelic: newrelic: {level=INFO,tag=DynamiteModule,message=Selected remote version of com.google.android.gms.ads.dynamite, version >= 250505301}
+07-25 12:14:11.832 10465 10496 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+07-25 12:14:11.833 10465 10465 I PlayCore: UID: [10347]  PID: [10465] AppUpdateService : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService})
+07-25 12:14:11.833 10465 10465 I newrelic: newrelic: {level=INFO,tag=PlayCore,message=UID: [10347]  PID: [10465] AppUpdateService : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService})}
+07-25 12:14:11.833 10465 10526 I PlayCore: UID: [10347]  PID: [10465] AppUpdateService : linkToDeath
+07-25 12:14:11.833 10465 10526 I newrelic: newrelic: {level=INFO,tag=PlayCore,message=UID: [10347]  PID: [10465] AppUpdateService : linkToDeath}
+07-25 12:14:11.836 10465 10516 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+07-25 12:14:11.836 10465 10465 I IDS_TAG : Closing IDS observe window
+07-25 12:14:11.836 10465 10465 I IDS_TAG : Getting Shared Preference for com.flipkart.android.init.FlipkartApplication@b4e88e2 uid = 10347
+07-25 12:14:11.836 10465 10496 W lipkart.android: ClassLoaderContext classpath size mismatch. expected=1, found=2 (DLC[];PCL[base.apk*129399461]{PCL[/system/framework/org.apache.http.legacy.jar*3637333363]#PCL[/system/framework/com.android.media.remotedisplay.jar*2042759013]#PCL[/system/framework/com.android.location.provider.jar*3414091812]#PCL[/system/system_ext/framework/org.carconnectivity.android.digitalkey.rangingintent.jar*560278203]#PCL[/system/system_ext/framework/org.carconnectivity.android.digitalkey.secureelement.jar*3277496667]#PCL[/system_ext/framework/org.carconnectivity.android.digitalkey.timesync.jar*1887653037]#PCL[/system_ext/framework/androidx.window.extensions.jar*2819270572]#PCL[/system_ext/framework/androidx.window.sidecar.jar*2841927739]} | DLC[];PCL[/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/base.apk*102233872:/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/split_juspay_sdk.apk*2460384389]{PCL[/system/framework/org.apache.http.legacy.jar*3637333363]})
+07-25 12:14:11.839 10465 10465 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[SplashActivity]@66bffb mNativeObject= 0xb400006e78372010 sc.mNativeObject= 0xb400006f2835b010 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3397 android.view.ViewRootImpl.relayoutWindow:11361 android.view.ViewRootImpl.performTraversals:4544 android.view.ViewRootImpl.doTraversal:3708 android.view.ViewRootImpl$TraversalRunnable.run:12542 android.view.Choreographer$CallbackRecord.run:1751 android.view.Choreographer$CallbackRecord.run:1760 android.view.Choreographer.doCallbacks:1216 android.view.Choreographer.doFrame:1142 android.view.Choreographer$FrameDisplayEventReceiver.run:1707 
+07-25 12:14:11.839 10465 10465 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[SplashActivity]@66bffb mNativeObject= 0xb400006e78372010 sc.mNativeObject= 0xb400006f2835b010 format= -1 caller= android.graphics.BLASTBufferQueue.<init>:88 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3397 android.view.ViewRootImpl.relayoutWindow:11361 android.view.ViewRootImpl.performTraversals:4544 android.view.ViewRootImpl.doTraversal:3708 android.view.ViewRootImpl$TraversalRunnable.run:12542 
+07-25 12:14:11.839 10465 10465 I VRI[SplashActivity]@66bffb: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=2 res=0x3 s={true 0xb400006ea83728d0} ch=true seqId=0
+07-25 12:14:11.839 10465 10465 I VRI[SplashActivity]@66bffb: performConfigurationChange setNightDimText nightDimLevel=0
+07-25 12:14:11.839 10465 10465 D VRI[SplashActivity]@66bffb: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400006ea83728d0} hwInitialized=true
+07-25 12:14:11.840 10465 10465 D VRI[SplashActivity]@66bffb: reportNextDraw android.view.ViewRootImpl.performTraversals:5193 android.view.ViewRootImpl.doTraversal:3708 android.view.ViewRootImpl$TraversalRunnable.run:12542 android.view.Choreographer$CallbackRecord.run:1751 android.view.Choreographer$CallbackRecord.run:1760 
+07-25 12:14:11.840 10465 10465 D VRI[SplashActivity]@66bffb: Canceling draw. cancelDueToPreDrawListener=true cancelDueToSync=false
+07-25 12:14:11.840 10465 10514 W newrelic: Analytics controller is not enabled!
+07-25 12:14:11.840 10465 10465 W newrelic: Analytics controller is not enabled!
+07-25 12:14:11.840 10465 10465 D Remote Service: Service Connected
+07-25 12:14:11.841 10465 10543 I lipkart.android: [HIDL_FETCH_IMapper] android.hardware.graphics.mapper@4.0: Loaded Mapper successfully.
+07-25 12:14:11.843 10465 10537 E lipkart.android: No package ID 6a found for resource ID 0x6a0b000f.
+07-25 12:14:11.844 10465 10537 I FA      : App measurement initialized, version: 131000
+07-25 12:14:11.844 10465 10537 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+07-25 12:14:11.844 10465 10537 I FA      : To enable faster debug mode event logging run:
+07-25 12:14:11.844 10465 10537 I FA      :   adb shell setprop debug.firebase.analytics.app com.flipkart.android
+07-25 12:14:11.848 10465 10518 I PlayCore: UID: [10347]  PID: [10465] OnRequestInstallCallback : onRequestInfo
+07-25 12:14:11.848 10465 10518 I newrelic: newrelic: {level=INFO,tag=PlayCore,message=UID: [10347]  PID: [10465] OnRequestInstallCallback : onRequestInfo}
+07-25 12:14:11.849 10465 10526 I PlayCore: UID: [10347]  PID: [10465] AppUpdateService : Unbind from service.
+07-25 12:14:11.849 10465 10526 I newrelic: newrelic: {level=INFO,tag=PlayCore,message=UID: [10347]  PID: [10465] AppUpdateService : Unbind from service.}
+07-25 12:14:11.853 10465 10537 I FA      : Tag Manager is not found and thus will not be used
+07-25 12:14:11.861 10465 10496 W DynamiteModule: Local module descriptor class for com.google.android.gms.ads.dynamite not found.
+07-25 12:14:11.868 10465 10465 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.flipkart.android/com.flipkart.android.SplashActivity
+07-25 12:14:11.868 10465 10465 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.flipkart.android/com.flipkart.android.SplashActivity
+07-25 12:14:11.869 10465 10465 D ActivityThread: com.flipkart.android will use render engine as VK
+07-25 12:14:11.870 10465 10465 I PlayCore: UID: [10347]  PID: [10465] AppUpdateService : requestUpdateInfo(com.flipkart.android)
+07-25 12:14:11.870 10465 10465 I newrelic: newrelic: {level=INFO,tag=PlayCore,message=UID: [10347]  PID: [10465] AppUpdateService : requestUpdateInfo(com.flipkart.android)}
+07-25 12:14:11.870 10465 10526 I PlayCore: UID: [10347]  PID: [10465] AppUpdateService : Initiate binding to the service.
+07-25 12:14:11.871 10465 10526 I newrelic: newrelic: {level=INFO,tag=PlayCore,message=UID: [10347]  PID: [10465] AppUpdateService : Initiate binding to the service.}
+07-25 12:14:11.871 10465 10465 E newrelic: Harvest instance is not running! Session duration will be invalid
+07-25 12:14:11.873 10465 10465 I DecorView: setWindowBackground: isPopOver=false color=ffffffff d=android.graphics.drawable.ColorDrawable@9b99ca8
+07-25 12:14:11.874 10465 10531 E newrelic: Harvest instance is not running! Session duration will be invalid
+07-25 12:14:11.874 10465 10531 D BinaryFileManagerRunner: Attempting operation for module: multiWidget
+07-25 12:14:11.874 10465 10531 D BinaryFileManagerRunner: Starting operation for module: multiWidget
+07-25 12:14:11.875 10465 10531 E newrelic: Attribute value for name [message] is null, empty, or exceeds the maximum length of 4096 bytes.
+07-25 12:14:11.875 10465 10531 W newrelic: Attribute [message] ignored: value is null, empty or exceeds the maximum name length
+07-25 12:14:11.875 10465 10531 E newrelic: Harvest instance is not running! Session duration will be invalid
+07-25 12:14:11.875 10465 10531 D BinaryFileManager: Returning current bundle
+07-25 12:14:11.875 10465 10465 E newrelic: Harvest instance is not running! Session duration will be invalid
+07-25 12:14:11.875 10465 10531 E newrelic: Harvest instance is not running! Session duration will be invalid
+07-25 12:14:11.876 10465 10465 I PlayCore: UID: [10347]  PID: [10465] SplitInstallListenerRegistry : registerListener
+07-25 12:14:11.876 10465 10465 I newrelic: newrelic: {level=INFO,tag=PlayCore,message=UID: [10347]  PID: [10465] SplitInstallListenerRegistry : registerListener}
+07-25 12:14:11.876 10465 10531 E newrelic: Harvest instance is not running! Session duration will be invalid
+07-25 12:14:11.877 10465 10465 E newrelic: Harvest instance is not running! Session duration will be invalid
+07-25 12:14:11.878 10465 10465 E newrelic: Harvest instance is not running! Session duration will be invalid
+07-25 12:14:11.878 10465 10465 E newrelic: Harvest instance is not running! Session duration will be invalid
+07-25 12:14:11.881 10465 10505 E newrelic: Harvest instance is not running! Session duration will be invalid
+07-25 12:14:11.886 10465 10465 E newrelic: Harvest instance is not running! Session duration will be invalid
+07-25 12:14:11.886 10465 10465 E newrelic: Harvest instance is not running! Session duration will be invalid
+07-25 12:14:11.889 10465 10559 E newrelic: Harvest instance is not running! Session duration will be invalid
+07-25 12:14:11.889 10465 10465 E newrelic: Harvest instance is not running! Session duration will be invalid
+07-25 12:14:11.890 10465 10465 I ViewRootImpl: dVRR is disabled
+07-25 12:14:11.890 10465 10516 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+07-25 12:14:11.891 10465 10465 D InputTransport: Input channel constructed: '7f29f38', fd=200
+07-25 12:14:11.892 10465 10465 I InsetsController: onStateChanged: host=com.flipkart.android/com.flipkart.android.activity.HomeFragmentHolderActivity, from=android.view.ViewRootImpl.setView:1999, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 84 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(515, 0 - 566, 84), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.066666666666667 V 29.86666666666667 H 9.066666666666667 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=101, center=Point(101, 101)}, RoundedCorner{position=TopRight, radius=101, center=Point(979, 101)}, RoundedCorner{position=BottomRight, radius=101, center=Point(979, 2239)}, RoundedCorner{position=BottomLeft, radius=101, center=Point(101, 2239)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 84) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1440 displayHeight=3120 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {88510001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {88510004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {88510005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {88510006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {88510024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {908b0000 mType=statusBars mFrame=[0,0][1080,84] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {908b0005 mType=mandatorySystemGestures mFrame=[0,0][1080,118] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {908b0006 mType=tappableElement mFrame=[0,0][1080,84] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,84] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+07-25 12:14:11.892 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: synced displayState. AttachInfo displayState=2
+07-25 12:14:11.892 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: setView = com.android.internal.policy.DecorView@ce1b4d IsHRR=false TM=true
+07-25 12:14:11.895 10465 10512 D nativeloader: Load /data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/lib/arm64/libfbjni.so using ns clns-7 from class loader (caller=/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/base.apk): ok
+07-25 12:14:11.898 10465 10465 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[HomeFragmentHolderActivity]@ce54e4c mNativeObject= 0xb400006e7836fdb0 sc.mNativeObject= 0xb400006f2835df50 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3397 android.view.ViewRootImpl.relayoutWindow:11361 android.view.ViewRootImpl.performTraversals:4544 android.view.ViewRootImpl.doTraversal:3708 android.view.ViewRootImpl$TraversalRunnable.run:12542 android.view.Choreographer$CallbackRecord.run:1751 android.view.Choreographer$CallbackRecord.run:1760 android.view.Choreographer.doCallbacks:1216 android.view.Choreographer.doFrame:1142 android.view.Choreographer$FrameDisplayEventReceiver.run:1707 
+07-25 12:14:11.898 10465 10465 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[HomeFragmentHolderActivity]@ce54e4c mNativeObject= 0xb400006e7836fdb0 sc.mNativeObject= 0xb400006f2835df50 format= -1 caller= android.graphics.BLASTBufferQueue.<init>:88 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3397 android.view.ViewRootImpl.relayoutWindow:11361 android.view.ViewRootImpl.performTraversals:4544 android.view.ViewRootImpl.doTraversal:3708 android.view.ViewRootImpl$TraversalRunnable.run:12542 
+07-25 12:14:11.898 10465 10508 I newrelic: Analytics Controller initialized: enabled[true]
+07-25 12:14:11.898 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=4 res=0x3 s={true 0xb400006ea8376cf0} ch=true seqId=0
+07-25 12:14:11.898 10465 10508 I newrelic: Measurement Engine initialized.
+07-25 12:14:11.899 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: performConfigurationChange setNightDimText nightDimLevel=0
+07-25 12:14:11.899 10465 10508 I newrelic: New Relic Agent v7.4.0
+07-25 12:14:11.899 10465 10465 D VRI[HomeFragmentHolderActivity]@ce54e4c: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400006ea8376cf0} hwInitialized=true
+07-25 12:14:11.899 10465 10465 D VRI[HomeFragmentHolderActivity]@ce54e4c: reportNextDraw android.view.ViewRootImpl.performTraversals:5193 android.view.ViewRootImpl.doTraversal:3708 android.view.ViewRootImpl$TraversalRunnable.run:12542 android.view.Choreographer$CallbackRecord.run:1751 android.view.Choreographer$CallbackRecord.run:1760 
+07-25 12:14:11.899 10465 10465 D VRI[HomeFragmentHolderActivity]@ce54e4c: Setup new sync=wmsSync-VRI[HomeFragmentHolderActivity]@ce54e4c#0
+07-25 12:14:11.899 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: Creating new active sync group VRI[HomeFragmentHolderActivity]@ce54e4c#1
+07-25 12:14:11.900 10465 10584 I newrelic: Saving configuration: HarvestConfiguration{collect_network_errors=true, cross_process_id='null', data_report_period=60, data_token=[1588751852, 1589018547], error_limit=50, report_max_transaction_age=600, report_max_transaction_count=1000, response_body_limit=2048, server_timestamp=0, stack_trace_limit=100, activity_trace_max_size=65535, activity_trace_max_report_attempts=1, activity_trace_min_utilization=0.30000001192092896, at_capture=ActivityTraceConfiguration{maxTotalTraceCount=1}, priority_encoding_key=d67afc830dab717fd163bfcb0b8b88423e9a1a3b, account_id=3700279, application_id=1588751852, trusted_account_key=6295286, entity_guid=MzcwMDI3OXxNT0JJTEV8QVBQTElDQVRJT058MTU4ODc1MTg1Mg, remote_configuration=com.newrelic.agent.android.RemoteConfiguration@dcb4517, request_headers_map={NR-AgentConfiguration=AQAAAZgNOvtQ, NR-Session=BrkBQH8UIrB2ADh2N162f7MAAAEBLCQoAAAAHQECBF6ybezIAAAAAWh4kKYDAAU3LjQuMAAAAAhGbGlwa2FydA}}
+07-25 12:14:11.900 10465 10584 I newrelic: Saving data token: [1588751852,1589018547]
+07-25 12:14:11.900 10465 10465 D VRI[HomeFragmentHolderActivity]@ce54e4c: registerCallbacksForSync syncBuffer=false
+07-25 12:14:11.900 10465 10584 I newrelic: Loaded configuration: HarvestConfiguration{collect_network_errors=true, cross_process_id='null', data_report_period=60, data_token=[1588751852, 1589018547], error_limit=50, report_max_transaction_age=600, report_max_transaction_count=1000, response_body_limit=2048, server_timestamp=0, stack_trace_limit=100, activity_trace_max_size=65535, activity_trace_max_report_attempts=1, activity_trace_min_utilization=0.30000001192092896, at_capture=ActivityTraceConfiguration{maxTotalTraceCount=1}, priority_encoding_key=d67afc830dab717fd163bfcb0b8b88423e9a1a3b, account_id=3700279, application_id=, trusted_account_key=6295286, entity_guid=MzcwMDI3OXxNT0JJTEV8QVBQTElDQVRJT058MTU4ODc1MTg1Mg, remote_configuration=com.newrelic.agent.android.RemoteConfiguration@743ed62, request_headers_map={NR-AgentConfiguration=AQAAAZgNOvtQ, NR-Session=BrkBQH8UIrB2ADh2N162f7MAAAEBLCQoAAAAHQECBF6ybezIAAAAAWh4kKYDAAU3LjQuMAAAAAhGbGlwa2FydA}}
+07-25 12:14:11.901 10465 10584 I newrelic: Harvester: connected
+07-25 12:14:11.901 10465 10584 I newrelic: Harvester: Sending [0] HTTP transactions.
+07-25 12:14:11.901 10465 10584 I newrelic: Harvester: Sending [0] activity traces.
+07-25 12:14:11.901 10465 10584 I newrelic: Harvester: Sending [0] session attributes.
+07-25 12:14:11.901 10465 10584 I newrelic: Harvester: Sending [0] analytics events.
+07-25 12:14:11.903 10465 10533 D VRI[HomeFragmentHolderActivity]@ce54e4c: Received frameDrawingCallback syncResult=0 frameNum=1.
+07-25 12:14:11.903 10465 10533 I VRI[HomeFragmentHolderActivity]@ce54e4c: mWNT: t=0xb400006d383cd0d0 mBlastBufferQueue=0xb400006e7836fdb0 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$11.onFrameDraw:15016 android.view.ThreadedRenderer$1.onFrameDraw:761 <bottom of call stack> 
+07-25 12:14:11.903 10465 10533 I VRI[HomeFragmentHolderActivity]@ce54e4c: Setting up sync and frameCommitCallback
+07-25 12:14:11.908 10465 10516 I BLASTBufferQueue: [VRI[HomeFragmentHolderActivity]@ce54e4c#1](f:0,a:0,s:0) onFrameAvailable the first frame is available
+07-25 12:14:11.908 10465 10516 I VRI[HomeFragmentHolderActivity]@ce54e4c: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+07-25 12:14:11.909 10465 10516 D HWUI    : CFMS:: SetUp Pid : 10465    Tid : 10516
+07-25 12:14:11.909 10465 10465 D VRI[HomeFragmentHolderActivity]@ce54e4c: reportDrawFinished seqId=0
+07-25 12:14:11.910 10465 10465 I PlayCore: UID: [10347]  PID: [10465] AppUpdateService : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService})
+07-25 12:14:11.910 10465 10465 I newrelic: newrelic: {level=INFO,tag=PlayCore,message=UID: [10347]  PID: [10465] AppUpdateService : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService})}
+07-25 12:14:11.910 10465 10526 I PlayCore: UID: [10347]  PID: [10465] AppUpdateService : linkToDeath
+07-25 12:14:11.910 10465 10526 I newrelic: newrelic: {level=INFO,tag=PlayCore,message=UID: [10347]  PID: [10465] AppUpdateService : linkToDeath}
+07-25 12:14:11.910 10465 10516 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+07-25 12:14:11.912 10465 10465 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.flipkart.android/com.flipkart.android.activity.HomeFragmentHolderActivity
+07-25 12:14:11.912 10465 10465 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.flipkart.android/com.flipkart.android.activity.HomeFragmentHolderActivity
+07-25 12:14:11.920 10465 10465 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[HomeFragmentHolderActivity]@ce54e4c mNativeObject= 0xb400006e7836fdb0 sc.mNativeObject= 0xb400006f2835df50 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3386 android.view.ViewRootImpl.relayoutWindow:11361 android.view.ViewRootImpl.performTraversals:4544 android.view.ViewRootImpl.doTraversal:3708 android.view.ViewRootImpl$TraversalRunnable.run:12542 android.view.Choreographer$CallbackRecord.run:1751 
+07-25 12:14:11.920 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)0 dur=0 res=0x0 s={true 0xb400006ea8376cf0} ch=false seqId=0
+07-25 12:14:11.920 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: registerCallbackForPendingTransactions
+07-25 12:14:11.921 10465 10534 I VRI[HomeFragmentHolderActivity]@ce54e4c: mWNT: t=0xb400006d383d6050 mBlastBufferQueue=0xb400006e7836fdb0 fn= 3 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$9.onFrameDraw:6276 android.view.ViewRootImpl$3.onFrameDraw:2440 android.view.ThreadedRenderer$1.onFrameDraw:761 
+07-25 12:14:11.922 10465 10465 W System.err: java.net.MalformedURLException: no protocol: homepage
+07-25 12:14:11.922 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:601)
+07-25 12:14:11.922 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:498)
+07-25 12:14:11.922 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:447)
+07-25 12:14:11.922 10465 10465 W System.err: 	at com.flipkart.android.utils.j1.getUrlPath(UrlUtils.java:3)
+07-25 12:14:11.922 10465 10465 W System.err: 	at W3.d.a(BottomBarVisibilityControllerImpl.kt:318)
+07-25 12:14:11.922 10465 10465 W System.err: 	at androidx.media3.ui.D.run(R8$$SyntheticClass:14)
+07-25 12:14:11.922 10465 10465 W System.err: 	at android.os.Handler.handleCallback(Handler.java:959)
+07-25 12:14:11.922 10465 10465 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+07-25 12:14:11.922 10465 10465 W System.err: 	at android.os.Looper.loopOnce(Looper.java:257)
+07-25 12:14:11.922 10465 10465 W System.err: 	at android.os.Looper.loop(Looper.java:342)
+07-25 12:14:11.922 10465 10465 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+07-25 12:14:11.922 10465 10465 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+07-25 12:14:11.922 10465 10465 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+07-25 12:14:11.922 10465 10465 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+07-25 12:14:11.922 10465 10465 W System.err: java.net.MalformedURLException: no protocol: homepage
+07-25 12:14:11.922 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:601)
+07-25 12:14:11.922 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:498)
+07-25 12:14:11.922 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:447)
+07-25 12:14:11.922 10465 10465 W System.err: 	at com.flipkart.android.utils.j1.getUrlPath(UrlUtils.java:3)
+07-25 12:14:11.922 10465 10465 W System.err: 	at W3.d.a(BottomBarVisibilityControllerImpl.kt:318)
+07-25 12:14:11.922 10465 10465 W System.err: 	at androidx.media3.ui.D.run(R8$$SyntheticClass:14)
+07-25 12:14:11.922 10465 10465 W System.err: 	at android.os.Handler.handleCallback(Handler.java:959)
+07-25 12:14:11.922 10465 10465 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+07-25 12:14:11.922 10465 10465 W System.err: 	at android.os.Looper.loopOnce(Looper.java:257)
+07-25 12:14:11.922 10465 10465 W System.err: 	at android.os.Looper.loop(Looper.java:342)
+07-25 12:14:11.922 10465 10465 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+07-25 12:14:11.922 10465 10465 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+07-25 12:14:11.922 10465 10465 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+07-25 12:14:11.922 10465 10465 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+07-25 12:14:11.926 10465 10518 I PlayCore: UID: [10347]  PID: [10465] OnRequestInstallCallback : onRequestInfo
+07-25 12:14:11.926 10465 10526 I PlayCore: UID: [10347]  PID: [10465] AppUpdateService : Unbind from service.
+07-25 12:14:11.926 10465 10518 I newrelic: newrelic: {level=INFO,tag=PlayCore,message=UID: [10347]  PID: [10465] OnRequestInstallCallback : onRequestInfo}
+07-25 12:14:11.926 10465 10526 I newrelic: newrelic: {level=INFO,tag=PlayCore,message=UID: [10347]  PID: [10465] AppUpdateService : Unbind from service.}
+07-25 12:14:11.946 10465 10520 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4709)] [android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:5433)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5400)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5374)] [b3.Q.e(R8$$SyntheticClass:1)] [r1.e.e(NetworkStateTracker.java:31)] [r1.d.a(ConstraintTracker.java:62)] [q1.c.e(ConstraintController.java:46)] [p1.d.d(WorkConstraintsTracker.java:33)] [n1.b.schedule(GreedyScheduler.java:296)] [androidx.work.impl.a.b(Schedulers.java:156)] [u1.e.run(EnqueueRunnable.java:66)] [u1.o$a.run(SerialExecutor.java:5)] [java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)] [java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)] [java.lang.Thread.run(Thread.java:1012)]
+07-25 12:14:11.948 10465 10520 D CompatChangeReporter: Compat change id reported: 263076149; UID 10347; state: ENABLED
+07-25 12:14:11.949 10465 10566 D BinaryFileManager: Returning bundle: /data/user/0/com.flipkart.android/files/binaryfilemanager/multiWidget/538884bb078e7ed868a70c60de6109d1-150.ota version: 150
+07-25 12:14:11.950 10465 10566 E newrelic: Attribute value for name [message] is null, empty, or exceeds the maximum length of 4096 bytes.
+07-25 12:14:11.950 10465 10566 W newrelic: Attribute [message] ignored: value is null, empty or exceeds the maximum name length
+07-25 12:14:11.952 10465 10465 W System.err: java.net.MalformedURLException: no protocol: homepage
+07-25 12:14:11.952 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:601)
+07-25 12:14:11.952 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:498)
+07-25 12:14:11.952 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:447)
+07-25 12:14:11.952 10465 10465 W System.err: 	at com.flipkart.android.utils.j1.getUrlPath(UrlUtils.java:3)
+07-25 12:14:11.952 10465 10465 W System.err: 	at W3.d.a(BottomBarVisibilityControllerImpl.kt:318)
+07-25 12:14:11.952 10465 10465 W System.err: 	at androidx.media3.ui.D.run(R8$$SyntheticClass:14)
+07-25 12:14:11.952 10465 10465 W System.err: 	at android.os.Handler.handleCallback(Handler.java:959)
+07-25 12:14:11.952 10465 10465 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+07-25 12:14:11.952 10465 10465 W System.err: 	at android.os.Looper.loopOnce(Looper.java:257)
+07-25 12:14:11.952 10465 10465 W System.err: 	at android.os.Looper.loop(Looper.java:342)
+07-25 12:14:11.952 10465 10465 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+07-25 12:14:11.952 10465 10465 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+07-25 12:14:11.952 10465 10465 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+07-25 12:14:11.952 10465 10465 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+07-25 12:14:11.952 10465 10465 D VRI[HomeFragmentHolderActivity]@ce54e4c: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb400006ea8376cf0}
+07-25 12:14:11.952 10465 10465 D InputMethodManagerUtils: startInputInner - Id : 0
+07-25 12:14:11.953 10465 10465 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+07-25 12:14:11.955 10465 10465 D nativeloader: Load /data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/lib/arm64/libhermes.so using ns clns-7 from class loader (caller=/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/base.apk): ok
+07-25 12:14:11.955 10465 10479 D InputTransport: Input channel constructed: 'ClientS', fd=224
+07-25 12:14:11.956 10465 10465 D nativeloader: Load /data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/lib/arm64/libhermes_executor.so using ns clns-7 from class loader (caller=/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/base.apk): ok
+07-25 12:14:11.959 10465 10609 D nativeloader: Load /data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/lib/arm64/libebooksjni.so using ns clns-7 from class loader (caller=/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/base.apk): ok
+07-25 12:14:11.960 10465 10609 V AsyncStorageExpoMigration: No scoped database found
+07-25 12:14:11.963 10465 10609 W unknown:ReactContext: initializeMessageQueueThreads() is called.
+07-25 12:14:11.964 10465 10611 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4709)] [android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:5433)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5400)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5374)] [b3.Q.e(R8$$SyntheticClass:1)] [com.reactnativecommunity.netinfo.c.e(NetworkCallbackConnectivityReceiver.java:7)] [com.reactnativecommunity.netinfo.NetInfoModule.initialize(NetInfoModule.java:3)] [com.facebook.react.bridge.ModuleHolder.doInitialize(ModuleHolder.java:46)] [com.facebook.react.bridge.ModuleHolder.markInitializable(ModuleHolder.java:26)] [com.facebook.react.bridge.NativeModuleRegistry.notifyJSInstanceInitialized(NativeModuleRegistry.java:40)] [com.facebook.react.bridge.CatalystInstanceImpl$2.run(CatalystInstanceImpl.java:7)]
+07-25 12:14:11.975 10465 10520 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=d0eb5a8e-0dd0-419f-866d-2e3fda62e5a4, tags={ com.flipkart.android.notification.FkPNTaskWorker } ]
+07-25 12:14:11.987 10465 10465 D <AudioPlayerModule>: Host Resume
+07-25 12:14:11.987 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+07-25 12:14:11.989 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+07-25 12:14:11.989 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+07-25 12:14:11.989 10465 10465 D <AudioPlayerModule>: Host Pause
+07-25 12:14:11.989 10465 10465 D <AudioPlayerModule>: Host Resume
+07-25 12:14:11.989 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+07-25 12:14:11.990 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+07-25 12:14:11.990 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+07-25 12:14:11.990 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+07-25 12:14:11.990 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+07-25 12:14:11.990 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+07-25 12:14:11.990 10465 10465 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=false, type=ime, host=com.flipkart.android/com.flipkart.android.activity.HomeFragmentHolderActivity
+07-25 12:14:11.990 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+07-25 12:14:11.990 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+07-25 12:14:11.990 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+07-25 12:14:11.990 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+07-25 12:14:11.990 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+07-25 12:14:11.990 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+07-25 12:14:11.990 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+07-25 12:14:11.990 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+07-25 12:14:11.990 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+07-25 12:14:11.991 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+07-25 12:14:11.991 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+07-25 12:14:11.991 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+07-25 12:14:11.991 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+07-25 12:14:11.991 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+07-25 12:14:11.991 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+07-25 12:14:11.991 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+07-25 12:14:11.991 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.reactuimodules.reusableviews.lineargradient.LinearGradientManager
+07-25 12:14:11.991 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.reacthelpersdk.modules.nestedscrollview.ReactNestedScrollViewManager
+07-25 12:14:11.991 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.reacthelpersdk.modules.nestedscrollview.ReactHorizontalNestedScrollViewManager
+07-25 12:14:11.991 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.reactuimodules.reusableviews.absolutelayoutcontainer.AbsoluteLayoutContainerManager
+07-25 12:14:11.991 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.AdContainer
+07-25 12:14:11.991 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.image.SatyabhamaReactImageManager
+07-25 12:14:11.992 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.youtube.ReactYouTubeManager
+07-25 12:14:11.992 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.WishlistAnimation
+07-25 12:14:11.992 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.viewability.TrackerViewManager
+07-25 12:14:11.992 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.recyclerview.ReactNestedScrollViewabilityViewManager
+07-25 12:14:11.992 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.viewability.PlaceholderViewManager
+07-25 12:14:11.992 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.material.AppBarLayoutManager
+07-25 12:14:11.992 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.material.CoordinatorLayoutManager
+07-25 12:14:11.992 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.material.BottomViewManager
+07-25 12:14:11.992 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.material.toolbar.ToolbarManager
+07-25 12:14:11.992 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.oblador.shimmer.RNShimmerManager
+07-25 12:14:11.992 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.image.Fk360ImageViewManager
+07-25 12:14:11.992 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.ExtendedReactViewManager
+07-25 12:14:11.992 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.viewability.MultiConditionTrackerViewManager
+07-25 12:14:11.992 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.tryonlooks.TryOnLipstickFaceView
+07-25 12:14:11.992 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.ViewWrapperManager
+07-25 12:14:11.992 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.voice.VoiceInputBarViewManager
+07-25 12:14:11.992 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.camera.CameraViewManager
+07-25 12:14:11.993 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.voice.MicViewManager
+07-25 12:14:11.993 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.virtualtryon.VirtualTryOnViewManager
+07-25 12:14:11.993 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.lottie.LottieAnimationViewManager
+07-25 12:14:11.993 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.perfmetrics.PerfMetricsViewManager
+07-25 12:14:11.993 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.snapview.SnapViewManager
+07-25 12:14:11.993 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.watchtryon.WatchTryOnManager
+07-25 12:14:11.993 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.camera.SimpleCameraViewManager
+07-25 12:14:11.993 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.voice.RecognitionViewManager
+07-25 12:14:11.993 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.scratchimageview.FkScratchImageViewManager
+07-25 12:14:11.993 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.arsceneview.viewmanagers.ARFragmentViewManager
+07-25 12:14:11.993 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.arsceneview.viewmanagers.SceneFragmentViewManager
+07-25 12:14:11.993 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.videotrimmer.VideoTrimmerViewManager
+07-25 12:14:11.993 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.fkarview.viewmanager.FkArViewManager
+07-25 12:14:11.994 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.fkarview.viewmanager.Fk3dViewManager
+07-25 12:14:11.994 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.camerax.CameraXViewManager
+07-25 12:14:11.994 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.qrcodescanner.FkCameraWithQRScannerViewManager
+07-25 12:14:11.994 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.videosv2.viewmanagers.FkVideoViewManager
+07-25 12:14:11.994 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.videosv2.viewmanagers.FkGifViewManager
+07-25 12:14:11.994 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.videosv2.viewmanagers.FkLiveVideoViewManager
+07-25 12:14:11.994 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.webview.RNCWebViewManager
+07-25 12:14:11.994 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativepagerview.PagerViewViewManager
+07-25 12:14:11.994 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$GroupViewManager
+07-25 12:14:11.994 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$d
+07-25 12:14:11.994 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$PathViewManager
+07-25 12:14:11.994 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$CircleViewManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$EllipseViewManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$LineViewManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$RectViewManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TextViewManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TSpanViewManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TextPathViewManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ImageViewManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ClipPathViewManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$DefsViewManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$UseViewManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$SymbolManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$LinearGradientManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$RadialGradientManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$PatternManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$MaskManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ForeignObjectManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$MarkerManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.SvgViewManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.art.ARTGroupViewManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.art.a
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.art.ARTShapeViewManager
+07-25 12:14:11.995 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.art.c
+07-25 12:14:11.996 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.art.ARTTextViewManager
+07-25 12:14:11.996 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.art.e
+07-25 12:14:11.996 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.art.ARTSurfaceViewManager
+07-25 12:14:11.996 10465 10610 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.art.d
+07-25 12:14:12.002 10465 10465 W unknown:ReactContext: initializeMessageQueueThreads() is called.
+07-25 12:14:12.003 10465 10465 D nativeloader: Load /data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/lib/arm64/libyoga.so using ns clns-7 from class loader (caller=/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/base.apk): ok
+07-25 12:14:12.005 10465 10465 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.unregisterNetworkCallback(ConnectivityManager.java:5543)] [r1.e.f(NetworkStateTracker.java:31)] [r1.d.c(ConstraintTracker.java:20)] [q1.c.e(ConstraintController.java:42)] [p1.d.d(WorkConstraintsTracker.java:33)] [n1.b.c(GreedyScheduler.java:68)] [m1.d.c(Processor.java:73)] [m1.d$a.run(Processor.java:19)]
+07-25 12:14:12.015 10465 10549 D BinaryFileManagerRunner: Attempting operation for module: multiWidget
+07-25 12:14:12.015 10465 10549 D BinaryFileManagerRunner: Starting operation for module: multiWidget
+07-25 12:14:12.016 10465 10549 E newrelic: Attribute value for name [message] is null, empty, or exceeds the maximum length of 4096 bytes.
+07-25 12:14:12.016 10465 10549 W newrelic: Attribute [message] ignored: value is null, empty or exceeds the maximum name length
+07-25 12:14:12.016 10465 10512 D BinaryFileManagerRunner: Attempting operation for module: cross
+07-25 12:14:12.016 10465 10512 D BinaryFileManagerRunner: Starting operation for module: cross
+07-25 12:14:12.017 10465 10512 E newrelic: Attribute value for name [message] is null, empty, or exceeds the maximum length of 4096 bytes.
+07-25 12:14:12.017 10465 10512 W newrelic: Attribute [message] ignored: value is null, empty or exceeds the maximum name length
+07-25 12:14:12.019 10465 10465 W System.err: java.net.MalformedURLException: no protocol: homepage
+07-25 12:14:12.019 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:601)
+07-25 12:14:12.019 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:498)
+07-25 12:14:12.019 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:447)
+07-25 12:14:12.019 10465 10465 W System.err: 	at com.flipkart.android.utils.j1.getUrlPath(UrlUtils.java:3)
+07-25 12:14:12.019 10465 10465 W System.err: 	at W3.d.a(BottomBarVisibilityControllerImpl.kt:318)
+07-25 12:14:12.019 10465 10465 W System.err: 	at androidx.media3.ui.D.run(R8$$SyntheticClass:14)
+07-25 12:14:12.019 10465 10465 W System.err: 	at android.os.Handler.handleCallback(Handler.java:959)
+07-25 12:14:12.019 10465 10465 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+07-25 12:14:12.019 10465 10465 W System.err: 	at android.os.Looper.loopOnce(Looper.java:257)
+07-25 12:14:12.019 10465 10465 W System.err: 	at android.os.Looper.loop(Looper.java:342)
+07-25 12:14:12.019 10465 10465 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+07-25 12:14:12.019 10465 10465 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+07-25 12:14:12.019 10465 10465 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+07-25 12:14:12.019 10465 10465 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+07-25 12:14:12.021 10465 10512 E newrelic: Attribute value for name [message] is null, empty, or exceeds the maximum length of 4096 bytes.
+07-25 12:14:12.021 10465 10512 W newrelic: Attribute [message] ignored: value is null, empty or exceeds the maximum name length
+07-25 12:14:12.022 10465 10512 E newrelic: Attribute value for name [message] is null, empty, or exceeds the maximum length of 4096 bytes.
+07-25 12:14:12.022 10465 10512 W newrelic: Attribute [message] ignored: value is null, empty or exceeds the maximum name length
+07-25 12:14:12.022 10465 10512 D BinaryFileManager: No Update Available
+07-25 12:14:12.022 10465 10549 E newrelic: Attribute value for name [message] is null, empty, or exceeds the maximum length of 4096 bytes.
+07-25 12:14:12.022 10465 10549 W newrelic: Attribute [message] ignored: value is null, empty or exceeds the maximum name length
+07-25 12:14:12.025 10465 10549 E newrelic: Attribute value for name [message] is null, empty, or exceeds the maximum length of 4096 bytes.
+07-25 12:14:12.025 10465 10549 W newrelic: Attribute [message] ignored: value is null, empty or exceeds the maximum name length
+07-25 12:14:12.025 10465 10549 D BinaryFileManager: No Update Available
+07-25 12:14:12.035 10465 10465 W unknown:ReactContext: initializeMessageQueueThreads() is called.
+07-25 12:14:12.036 10465 10550 D BinaryFileManager: Returning bundle: /data/user/0/com.flipkart.android/files/binaryfilemanager/cross/88990840d615a343185c46c4b28aba24-71.ota version: 71
+07-25 12:14:12.037 10465 10550 E newrelic: Attribute value for name [message] is null, empty, or exceeds the maximum length of 4096 bytes.
+07-25 12:14:12.037 10465 10550 W newrelic: Attribute [message] ignored: value is null, empty or exceeds the maximum name length
+07-25 12:14:12.053 10465 10465 W System.err: java.net.MalformedURLException: no protocol: homepage
+07-25 12:14:12.054 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:601)
+07-25 12:14:12.054 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:498)
+07-25 12:14:12.054 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:447)
+07-25 12:14:12.054 10465 10465 W System.err: 	at com.flipkart.android.utils.j1.getUrlPath(UrlUtils.java:3)
+07-25 12:14:12.054 10465 10465 W System.err: 	at W3.d.a(BottomBarVisibilityControllerImpl.kt:318)
+07-25 12:14:12.054 10465 10465 W System.err: 	at androidx.media3.ui.D.run(R8$$SyntheticClass:14)
+07-25 12:14:12.054 10465 10465 W System.err: 	at android.os.Handler.handleCallback(Handler.java:959)
+07-25 12:14:12.054 10465 10465 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+07-25 12:14:12.054 10465 10465 W System.err: 	at android.os.Looper.loopOnce(Looper.java:257)
+07-25 12:14:12.054 10465 10465 W System.err: 	at android.os.Looper.loop(Looper.java:342)
+07-25 12:14:12.054 10465 10465 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+07-25 12:14:12.054 10465 10465 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+07-25 12:14:12.054 10465 10465 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+07-25 12:14:12.054 10465 10465 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+07-25 12:14:12.083 10465 10610 D nativeloader: Load /data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/lib/arm64/libreactnativeblob.so using ns clns-7 from class loader (caller=/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/base.apk): ok
+07-25 12:14:12.088 10465 10549 D BinaryFileManager: Returning bundle: /data/user/0/com.flipkart.android/files/binaryfilemanager/multiWidget/538884bb078e7ed868a70c60de6109d1-150.ota version: 150
+07-25 12:14:12.088 10465 10549 E newrelic: Attribute value for name [message] is null, empty, or exceeds the maximum length of 4096 bytes.
+07-25 12:14:12.088 10465 10549 W newrelic: Attribute [message] ignored: value is null, empty or exceeds the maximum name length
+07-25 12:14:12.091 10465 10611 D CompatChangeReporter: Compat change id reported: 289878283; UID 10347; state: ENABLED
+07-25 12:14:12.093 10465 10642 I WebViewFactory: Loading com.google.android.webview version 138.0.7204.67 (code 720406733)
+07-25 12:14:12.098 10465 10642 V ResourcesManager: The following library key has been added: ResourcesKey{ mHash=f9962e28 mResDir=null mSplitDirs=[] mOverlayDirs=[] mLibDirs=[/data/app/~~aGzA_1Z5QF3J_1QBGO3QHQ==/com.google.android.webview-rfhONeC4KSuFBVN-kL4W2g==/base.apk,/data/app/~~6BaZB8dhHlEE3GO4LMAokw==/com.google.android.trichromelibrary_720406733-YesUOP6PS7HTJMNO-KenMw==/base.apk,/system_ext/framework/androidx.window.extensions.jar] mDisplayId=0 mOverrideConfig=v35 mCompatInfo={450dpi always-compat} mLoaders=[]}
+07-25 12:14:12.099 10465 10642 W ziparchive: Unable to open '/data/app/~~6BaZB8dhHlEE3GO4LMAokw==/com.google.android.trichromelibrary_720406733-YesUOP6PS7HTJMNO-KenMw==/base.dm': No such file or directory
+07-25 12:14:12.099 10465 10642 W ziparchive: Unable to open '/data/app/~~6BaZB8dhHlEE3GO4LMAokw==/com.google.android.trichromelibrary_720406733-YesUOP6PS7HTJMNO-KenMw==/base.dm': No such file or directory
+07-25 12:14:12.099 10465 10642 W lipkart.android: Entry not found
+07-25 12:14:12.100 10465 10642 D nativeloader: Configuring clns-15 for other apk /data/app/~~6BaZB8dhHlEE3GO4LMAokw==/com.google.android.trichromelibrary_720406733-YesUOP6PS7HTJMNO-KenMw==/base.apk. target_sdk_version=35, uses_libraries=ALL, library_path=/data/app/~~aGzA_1Z5QF3J_1QBGO3QHQ==/com.google.android.webview-rfhONeC4KSuFBVN-kL4W2g==/lib/arm64:/data/app/~~aGzA_1Z5QF3J_1QBGO3QHQ==/com.google.android.webview-rfhONeC4KSuFBVN-kL4W2g==/base.apk!/lib/arm64-v8a:/data/app/~~6BaZB8dhHlEE3GO4LMAokw==/com.google.android.trichromelibrary_720406733-YesUOP6PS7HTJMNO-KenMw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+07-25 12:14:12.100 10465 10642 D nativeloader: Extending system_exposed_libraries: libhumantracking.arcsoft.so:libface_recognition.arcsoft.so:libpic_best.arcsoft.so:libPortraitDistortionCorrection.arcsoft.so:libPortraitDistortionCorrectionCali.arcsoft.so:libface_landmark.arcsoft.so:libFacialStickerEngine.arcsoft.so:libfrtracking_engine.arcsoft.so:libFaceRecognition.arcsoft.so:libveengine.arcsoft.so:lib_pet_detection.arcsoft.so:libae_bracket_hdr.arcsoft.so:libdigital_tele_scope.arcsoft.so:libdigital_tele_scope_rawsr.arcsoft.so:libsf_tetra_enhance.arcsoft.so:libmf_bayer_enhance.arcsoft.so:libhybrid_high_dynamic_range.arcsoft.so:libimage_enhancement.arcsoft.so:libobjectcapture_jni.arcsoft.so:libobjectcapture.arcsoft.so:libFacialAttributeDetection.arcsoft.so:libmultisourceseparator.audio.samsung.so:libaudiomirroring_jni.audiomirroring.samsung.so:libBeauty_v4.camera.samsung.so:libexifa.camera.samsung.so:libjpega.camera.samsung.so:libOpenCv.camera.samsung.so:libaifrcInterface.camera.samsung.so:libC2paDps.camera.samsung.so:libVideoClassifier.camera.samsung.so:l
+07-25 12:14:12.100 10465 10642 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+07-25 12:14:12.103 10465 10642 D nativeloader: Configuring clns-16 for other apk /data/app/~~aGzA_1Z5QF3J_1QBGO3QHQ==/com.google.android.webview-rfhONeC4KSuFBVN-kL4W2g==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~aGzA_1Z5QF3J_1QBGO3QHQ==/com.google.android.webview-rfhONeC4KSuFBVN-kL4W2g==/lib/arm64:/data/app/~~aGzA_1Z5QF3J_1QBGO3QHQ==/com.google.android.webview-rfhONeC4KSuFBVN-kL4W2g==/base.apk!/lib/arm64-v8a:/data/app/~~6BaZB8dhHlEE3GO4LMAokw==/com.google.android.trichromelibrary_720406733-YesUOP6PS7HTJMNO-KenMw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+07-25 12:14:12.113 10465 10642 I cr_WVCFactoryProvider: version=138.0.7204.67 (720406733) minSdkVersion=29 isBundle=true multiprocess=true packageId=2
+07-25 12:14:12.115 10465 10642 D nativeloader: Load /data/app/~~6BaZB8dhHlEE3GO4LMAokw==/com.google.android.trichromelibrary_720406733-YesUOP6PS7HTJMNO-KenMw==/base.apk!/lib/arm64-v8a/libmonochrome_64.so using ns clns-16 from class loader (caller=/data/app/~~aGzA_1Z5QF3J_1QBGO3QHQ==/com.google.android.webview-rfhONeC4KSuFBVN-kL4W2g==/base.apk): ok
+07-25 12:14:12.116 10465 10642 D nativeloader: Load /system/lib64/libwebviewchromium_plat_support.so using ns clns-16 from class loader (caller=/data/app/~~aGzA_1Z5QF3J_1QBGO3QHQ==/com.google.android.webview-rfhONeC4KSuFBVN-kL4W2g==/base.apk): ok
+07-25 12:14:12.121 10465 10642 I cr_LibraryLoader: Successfully loaded native library
+07-25 12:14:12.121 10465 10642 I cr_CachingUmaRecorder: Flushed 8 samples from 8 histograms, 0 samples were dropped.
+07-25 12:14:12.123 10465 10653 I chromium: [INFO:android_webview/browser/variations/variations_seed_loader.cc:67] Failed to open file for reading.: No such file or directory (2)
+07-25 12:14:12.140 10465 10465 W System.err: java.net.MalformedURLException: no protocol: homepage
+07-25 12:14:12.140 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:601)
+07-25 12:14:12.140 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:498)
+07-25 12:14:12.140 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:447)
+07-25 12:14:12.140 10465 10465 W System.err: 	at com.flipkart.android.utils.j1.getUrlPath(UrlUtils.java:3)
+07-25 12:14:12.140 10465 10465 W System.err: 	at W3.d.a(BottomBarVisibilityControllerImpl.kt:318)
+07-25 12:14:12.140 10465 10465 W System.err: 	at androidx.media3.ui.D.run(R8$$SyntheticClass:14)
+07-25 12:14:12.140 10465 10465 W System.err: 	at android.os.Handler.handleCallback(Handler.java:959)
+07-25 12:14:12.140 10465 10465 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+07-25 12:14:12.140 10465 10465 W System.err: 	at android.os.Looper.loopOnce(Looper.java:257)
+07-25 12:14:12.140 10465 10465 W System.err: 	at android.os.Looper.loop(Looper.java:342)
+07-25 12:14:12.140 10465 10465 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+07-25 12:14:12.140 10465 10465 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+07-25 12:14:12.140 10465 10465 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+07-25 12:14:12.140 10465 10465 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+07-25 12:14:12.140 10465 10465 W System.err: java.net.MalformedURLException: no protocol: homepage
+07-25 12:14:12.141 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:601)
+07-25 12:14:12.141 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:498)
+07-25 12:14:12.141 10465 10465 W System.err: 	at java.net.URL.<init>(URL.java:447)
+07-25 12:14:12.141 10465 10465 W System.err: 	at com.flipkart.android.utils.j1.getUrlPath(UrlUtils.java:3)
+07-25 12:14:12.141 10465 10465 W System.err: 	at W3.d.a(BottomBarVisibilityControllerImpl.kt:318)
+07-25 12:14:12.141 10465 10465 W System.err: 	at androidx.media3.ui.D.run(R8$$SyntheticClass:14)
+07-25 12:14:12.141 10465 10465 W System.err: 	at android.os.Handler.handleCallback(Handler.java:959)
+07-25 12:14:12.141 10465 10465 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+07-25 12:14:12.141 10465 10465 W System.err: 	at android.os.Looper.loopOnce(Looper.java:257)
+07-25 12:14:12.141 10465 10465 W System.err: 	at android.os.Looper.loop(Looper.java:342)
+07-25 12:14:12.141 10465 10465 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+07-25 12:14:12.141 10465 10465 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+07-25 12:14:12.141 10465 10465 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+07-25 12:14:12.141 10465 10465 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+07-25 12:14:12.179 10465 10468 W lipkart.android: Missing inline cache for void m7.sc.ab(java.lang.String, java.lang.String, long, android.os.Bundle, boolean, boolean, boolean)
+07-25 12:14:12.179 10465 10465 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[HomeFragmentHolderActivity]@ce54e4c mNativeObject= 0xb400006e7836fdb0 sc.mNativeObject= 0xb400006f2835df50 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3386 android.view.ViewRootImpl.relayoutWindow:11361 android.view.ViewRootImpl.performTraversals:4544 android.view.ViewRootImpl.doTraversal:3708 android.view.ViewRootImpl$TraversalRunnable.run:12542 android.view.Choreographer$CallbackRecord.run:1751 
+07-25 12:14:12.179 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)0 dur=0 res=0x0 s={true 0xb400006ea8376cf0} ch=false seqId=0
+07-25 12:14:12.180 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: registerCallbackForPendingTransactions
+07-25 12:14:12.182 10465 10533 I VRI[HomeFragmentHolderActivity]@ce54e4c: mWNT: t=0xb400006d384788d0 mBlastBufferQueue=0xb400006e7836fdb0 fn= 16 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$9.onFrameDraw:6276 android.view.ViewRootImpl$3.onFrameDraw:2440 android.view.ThreadedRenderer$1.onFrameDraw:761 
+07-25 12:14:12.227 10465 10465 I VRI[SplashActivity]@66bffb: stopped(true) old = false
+07-25 12:14:12.227 10465 10465 D VRI[SplashActivity]@66bffb: WindowStopped on com.flipkart.android/com.flipkart.android.SplashActivity set to true
+07-25 12:14:12.228 10465 10465 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda15@642c66d
+07-25 12:14:12.229 10465 10465 I VRI[SplashActivity]@66bffb: dispatchDetachedFromWindow
+07-25 12:14:12.230 10465 10465 D InputTransport: Input channel destroyed: '2ce2d89', fd=152
+07-25 12:14:12.231 10465 10465 D VRI[SplashActivity]@66bffb: Pending transaction will not be applied in sync with a draw due to shutting down VRI
+07-25 12:14:12.260 10465 10662 D nativeloader: Load /data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/lib/arm64/libimagepipeline.so using ns clns-7 from class loader (caller=/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/base.apk): ok
+07-25 12:14:12.319 10465 10465 I FKMediaViewManager: log: setPlayProgressDelay 1000
+07-25 12:14:12.319 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setPlayProgressDelay 1000}
+07-25 12:14:12.320 10465 10465 I FKMediaViewManager: log: setMuteState mute=true
+07-25 12:14:12.320 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setMuteState mute=true}
+07-25 12:14:12.320 10465 10465 I FKMediaViewManager: log: setVideoData hideTimer -> true, thumbnail -> https://rukminim1.flixcart.com/fk-p-flap/{@width}/{@height}/image/34f3b1dbe4f50b3a.jpeg?q={@quality}, src -> https://trinity-fk.akamaized.net/videos/0740b0cbeffab4d8/master.m3u8, showPlayButton -> false, disableVolumeControl -> true, loopCount -> -1.0, disableDefaultPlaceholderImage -> true, width -> 352.0, resizeMode -> 3.0, cacheDisabled -> false, hideBufferIndicator -> true, showReplayButton -> false, height -> 117.33333333333333
+07-25 12:14:12.320 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setVideoData hideTimer -> true, thumbnail -> https://rukminim1.flixcart.com/fk-p-flap/{@width}/{@height}/image/34f3b1dbe4f50b3a.jpeg?q={@quality}, src -> https://trinity-fk.akamaized.net/videos/0740b0cbeffab4d8/master.m3u8, showPlayButton -> false, disableVolumeControl -> true, loopCount -> -1.0, disableDefaultPlaceholderImage -> true, width -> 352.0, resizeMode -> 3.0, cacheDisabled -> false, hideBufferIndicator -> true, showReplayButton -> false, height -> 117.33333333333333}
+07-25 12:14:12.545 10465 10465 D SurfaceView: 225551817 updateSurface: has no frame
+07-25 12:14:12.554 10465 10465 I SurfaceView@d71a5c9: onWindowVisibilityChanged(0) true android.view.SurfaceView{d71a5c9 V.E...... ......I. 0,0-0,0} of VRI[HomeFragmentHolderActivity]@ce54e4c
+07-25 12:14:12.554 10465 10465 D SurfaceView: 225551817 updateSurface: has no frame
+07-25 12:14:12.554 10465 10465 I ExoPlayerImpl: Init 5799f8c [AndroidXMedia3/1.4.1] [e2s, SM-S926B, samsung, 35]
+07-25 12:14:12.565 10465 10465 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[HomeFragmentHolderActivity]@ce54e4c mNativeObject= 0xb400006e7836fdb0 sc.mNativeObject= 0xb400006f2835df50 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3386 android.view.ViewRootImpl.relayoutWindow:11361 android.view.ViewRootImpl.performTraversals:4544 android.view.ViewRootImpl.doTraversal:3708 android.view.ViewRootImpl$TraversalRunnable.run:12542 android.view.Choreographer$CallbackRecord.run:1751 
+07-25 12:14:12.565 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)0 dur=0 res=0x0 s={true 0xb400006ea8376cf0} ch=false seqId=0
+07-25 12:14:12.567 10465 10465 D SurfaceView: 225551817 updateSurface: has no frame
+07-25 12:14:12.567 10465 10465 D SurfaceView: 225551817 updateSurface: has no frame
+07-25 12:14:12.567 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: registerCallbackForPendingTransactions
+07-25 12:14:12.569 10465 10534 I VRI[HomeFragmentHolderActivity]@ce54e4c: mWNT: t=0xb400006d385ce210 mBlastBufferQueue=0xb400006e7836fdb0 fn= 37 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$9.onFrameDraw:6276 android.view.ViewRootImpl$3.onFrameDraw:2440 android.view.ThreadedRenderer$1.onFrameDraw:761 
+07-25 12:14:12.571 10465 10465 D SurfaceView: 225551817 updateSurface: has no frame
+07-25 12:14:12.576 10465 10465 I SurfaceView: 225551817 Changes: creating=true format=true size=true visible=true alpha=false hint=false visible=true left=true top=true z=false attached=true lifecycleStrategy=true
+07-25 12:14:12.577 10465 10465 I BLASTBufferQueue_Java: update, w= 990 h= 330 mName = null mNativeObject= 0xb400006e784e1950 sc.mNativeObject= 0xb400006f2839ab50 format= 4 caller= android.view.SurfaceView.createBlastSurfaceControls:1642 android.view.SurfaceView.updateSurface:1318 android.view.SurfaceView.lambda$new$0:268 android.view.SurfaceView.$r8$lambda$NfZyM_TG8F8lqzaOVZ7noREFjzU:0 android.view.SurfaceView$$ExternalSyntheticLambda1.onPreDraw:0 android.view.ViewTreeObserver.dispatchOnPreDraw:1226 
+07-25 12:14:12.577 10465 10465 I SurfaceView: 225551817 Cur surface: Surface(name=null mNativeObject=0)/@0xc8a077
+07-25 12:14:12.577 10465 10465 I SurfaceView@d71a5c9: pST: sr = Rect(45, 1990 - 1035, 2320) sw = 990 sh = 330
+07-25 12:14:12.577 10465 10465 D SurfaceView: 225551817 performSurfaceTransaction RenderWorker position = [45, 1990, 1035, 2320] surfaceSize = 990x330
+07-25 12:14:12.578 10465 10465 I SurfaceView@d71a5c9: updateSurface: mVisible = true mSurface.isValid() = true
+07-25 12:14:12.578 10465 10465 I SurfaceView@d71a5c9: updateSurface: mSurfaceCreated = false surfaceChanged = true visibleChanged = true
+07-25 12:14:12.578 10465 10465 I SurfaceView: 225551817 visibleChanged -- surfaceCreated
+07-25 12:14:12.578 10465 10465 I SurfaceView@d71a5c9: surfaceCreated 1 #8 android.view.SurfaceView{d71a5c9 V.E...... ......ID 0,0-990,330}
+07-25 12:14:12.578 10465 10465 I SurfaceView: 225551817 surfaceChanged -- format=4 w=990 h=330
+07-25 12:14:12.578 10465 10465 I SurfaceView@d71a5c9: surfaceChanged (990,330) 1 #8 android.view.SurfaceView{d71a5c9 V.E...... ......ID 0,0-990,330}
+07-25 12:14:12.578 10465 10465 I SurfaceView: 225551817 surfaceRedrawNeeded
+07-25 12:14:12.578 10465 10465 I SurfaceView: 225551817 finishedDrawing
+07-25 12:14:12.578 10465 10465 V SurfaceView: Layout: x=45 y=1990 w=990 h=330, frame=Rect(0, 0 - 990, 330)
+07-25 12:14:12.578 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: registerCallbackForPendingTransactions
+07-25 12:14:12.580 10465 10516 D SurfaceView: 225551817 updateSurfacePosition RenderWorker, frameNr = 38, position = [45, 1990, 1035, 2320] surfaceSize = 990x330
+07-25 12:14:12.580 10465 10516 I SurfaceView@d71a5c9: uSP: rtp = Rect(45, 1990 - 1035, 2320) rtsw = 990 rtsh = 330
+07-25 12:14:12.580 10465 10516 I SurfaceView@d71a5c9: onSSPAndSRT: pl = 45 pt = 1990 sx = 1.0 sy = 1.0
+07-25 12:14:12.580 10465 10516 I SurfaceView@d71a5c9: aOrMT: VRI[HomeFragmentHolderActivity]@ce54e4c t = android.view.SurfaceControl$Transaction@f0fa149 fN = 38 android.view.SurfaceView.-$$Nest$mapplyOrMergeTransaction:0 android.view.SurfaceView$SurfaceViewPositionUpdateListener.positionChanged:1792 android.graphics.RenderNode$CompositePositionUpdateListener.positionChanged:398 
+07-25 12:14:12.580 10465 10516 I VRI[HomeFragmentHolderActivity]@ce54e4c: mWNT: t=0xb400006d385d5750 mBlastBufferQueue=0xb400006e7836fdb0 fn= 38 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SurfaceView.applyOrMergeTransaction:1723 android.view.SurfaceView.-$$Nest$mapplyOrMergeTransaction:0 android.view.SurfaceView$SurfaceViewPositionUpdateListener.positionChanged:1792 
+07-25 12:14:12.580 10465 10533 I VRI[HomeFragmentHolderActivity]@ce54e4c: mWNT: t=0xb400006d385d4b10 mBlastBufferQueue=0xb400006e7836fdb0 fn= 38 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$9.onFrameDraw:6276 android.view.ViewRootImpl$3.onFrameDraw:2440 android.view.ThreadedRenderer$1.onFrameDraw:761 
+07-25 12:14:12.586 10465 10465 I FKMediaViewManager: log: setPlayProgressDelay 1000
+07-25 12:14:12.586 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setPlayProgressDelay 1000}
+07-25 12:14:12.586 10465 10465 I FKMediaViewManager: log: setMuteState mute=true
+07-25 12:14:12.586 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setMuteState mute=true}
+07-25 12:14:12.586 10465 10465 I FKMediaViewManager: log: setVideoData hideTimer -> true, thumbnail -> https://rukminim1.flixcart.com/fk-p-user/{@width}/{@height}/2gudsocialimages/cb66fdbc-e44d-4cb2-84b6-ecb885d6e3de.jpg?q={@quality}, src -> https://2gud-live-cdn.akamaized.net/media/fk-p-user-2gudsocial072022/social-multimedia/video/publish/1566111059460730858/manifest.m3u8, showPlayButton -> false, disableVolumeControl -> true, loopCount -> 1.0, disableDefaultPlaceholderImage -> true, width -> 139.392, resizeMode -> 3.0, cacheDisabled -> true, hideBufferIndicator -> true, showReplayButton -> false, height -> 247.808
+07-25 12:14:12.586 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setVideoData hideTimer -> true, thumbnail -> https://rukminim1.flixcart.com/fk-p-user/{@width}/{@height}/2gudsocialimages/cb66fdbc-e44d-4cb2-84b6-ecb885d6e3de.jpg?q={@quality}, src -> https://2gud-live-cdn.akamaized.net/media/fk-p-user-2gudsocial072022/social-multimedia/video/publish/1566111059460730858/manifest.m3u8, showPlayButton -> false, disableVolumeControl -> true, loopCount -> 1.0, disableDefaultPlaceholderImage -> true, width -> 139.392, resizeMode -> 3.0, cacheDisabled -> true, hideBufferIndicator -> true, showReplayButton -> false, height -> 247.808}
+07-25 12:14:12.586 10465 10465 I FKMediaViewManager: log: setPlayProgressDelay 1000
+07-25 12:14:12.586 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setPlayProgressDelay 1000}
+07-25 12:14:12.586 10465 10465 I FKMediaViewManager: log: setMuteState mute=true
+07-25 12:14:12.586 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setMuteState mute=true}
+07-25 12:14:12.587 10465 10465 I FKMediaViewManager: log: setVideoData hideTimer -> true, thumbnail -> https://rukminim1.flixcart.com/fk-p-user/{@width}/{@height}/2gudsocialimages/b17f10f4-009f-4a01-9173-40b67d583abd.jpg?q={@quality}, src -> https://2gud-live-cdn.akamaized.net/media/fk-p-user-2gudsocial072022/social-multimedia/video/publish/4399685316514589596/manifest.m3u8, showPlayButton -> false, disableVolumeControl -> true, loopCount -> 1.0, disableDefaultPlaceholderImage -> true, width -> 139.392, resizeMode -> 3.0, cacheDisabled -> true, hideBufferIndicator -> true, showReplayButton -> false, height -> 247.808
+07-25 12:14:12.587 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setVideoData hideTimer -> true, thumbnail -> https://rukminim1.flixcart.com/fk-p-user/{@width}/{@height}/2gudsocialimages/b17f10f4-009f-4a01-9173-40b67d583abd.jpg?q={@quality}, src -> https://2gud-live-cdn.akamaized.net/media/fk-p-user-2gudsocial072022/social-multimedia/video/publish/4399685316514589596/manifest.m3u8, showPlayButton -> false, disableVolumeControl -> true, loopCount -> 1.0, disableDefaultPlaceholderImage -> true, width -> 139.392, resizeMode -> 3.0, cacheDisabled -> true, hideBufferIndicator -> true, showReplayButton -> false, height -> 247.808}
+07-25 12:14:12.590 10465 10465 I FKMediaViewManager: log: setPlayProgressDelay 1000
+07-25 12:14:12.590 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setPlayProgressDelay 1000}
+07-25 12:14:12.590 10465 10465 I FKMediaViewManager: log: setMuteState mute=true
+07-25 12:14:12.590 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setMuteState mute=true}
+07-25 12:14:12.590 10465 10465 I FKMediaViewManager: log: setVideoData hideTimer -> true, thumbnail -> https://rukminim1.flixcart.com/fk-p-user/{@width}/{@height}/2gudsocialimages/86ed3b20-35cd-4ac9-bce4-a5690bae8699.jpg?q={@quality}, src -> https://flipkartazurepni.akamaized.net/hls/live/2118785/zs6dbi/master.m3u8, showPlayButton -> false, disableVolumeControl -> true, loopCount -> 1.0, disableDefaultPlaceholderImage -> true, width -> 139.392, resizeMode -> 3.0, cacheDisabled -> true, hideBufferIndicator -> true, showReplayButton -> false, height -> 247.808
+07-25 12:14:12.590 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setVideoData hideTimer -> true, thumbnail -> https://rukminim1.flixcart.com/fk-p-user/{@width}/{@height}/2gudsocialimages/86ed3b20-35cd-4ac9-bce4-a5690bae8699.jpg?q={@quality}, src -> https://flipkartazurepni.akamaized.net/hls/live/2118785/zs6dbi/master.m3u8, showPlayButton -> false, disableVolumeControl -> true, loopCount -> 1.0, disableDefaultPlaceholderImage -> true, width -> 139.392, resizeMode -> 3.0, cacheDisabled -> true, hideBufferIndicator -> true, showReplayButton -> false, height -> 247.808}
+07-25 12:14:12.591 10465 10465 I FKMediaViewManager: log: setPlayProgressDelay 1000
+07-25 12:14:12.591 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setPlayProgressDelay 1000}
+07-25 12:14:12.591 10465 10465 I FKMediaViewManager: log: setMuteState mute=true
+07-25 12:14:12.591 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setMuteState mute=true}
+07-25 12:14:12.591 10465 10465 I FKMediaViewManager: log: setVideoData hideTimer -> true, thumbnail -> https://rukminim1.flixcart.com/fk-p-user/{@width}/{@height}/2gudsocialimages/b5783fc4-a5b8-4108-b1d8-9f5289ddcad3.jpg?q={@quality}, src -> https://flipkartazurepni.akamaized.net/hls/live/2118784/a0gzuj/master.m3u8, showPlayButton -> false, disableVolumeControl -> true, loopCount -> 1.0, disableDefaultPlaceholderImage -> true, width -> 139.392, resizeMode -> 3.0, cacheDisabled -> true, hideBufferIndicator -> true, showReplayButton -> false, height -> 247.808
+07-25 12:14:12.591 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setVideoData hideTimer -> true, thumbnail -> https://rukminim1.flixcart.com/fk-p-user/{@width}/{@height}/2gudsocialimages/b5783fc4-a5b8-4108-b1d8-9f5289ddcad3.jpg?q={@quality}, src -> https://flipkartazurepni.akamaized.net/hls/live/2118784/a0gzuj/master.m3u8, showPlayButton -> false, disableVolumeControl -> true, loopCount -> 1.0, disableDefaultPlaceholderImage -> true, width -> 139.392, resizeMode -> 3.0, cacheDisabled -> true, hideBufferIndicator -> true, showReplayButton -> false, height -> 247.808}
+07-25 12:14:12.603 10465 10465 I FKMediaViewManager: log: setPlayProgressDelay 1000
+07-25 12:14:12.603 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setPlayProgressDelay 1000}
+07-25 12:14:12.603 10465 10465 I FKMediaViewManager: log: setMuteState mute=true
+07-25 12:14:12.603 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setMuteState mute=true}
+07-25 12:14:12.603 10465 10465 I FKMediaViewManager: log: setVideoData hideTimer -> true, thumbnail -> https://rukminim1.flixcart.com/fk-p-user/{@width}/{@height}/2gudsocialimages/b0db598a-c595-48f7-a1f4-8016f560dc5f.jpg?q={@quality}, src -> https://2gud-live-cdn.akamaized.net/media/fk-p-user-2gudsocial072022/social-multimedia/video/publish/3417745919487703006/manifest.m3u8, showPlayButton -> false, disableVolumeControl -> true, loopCount -> 1.0, disableDefaultPlaceholderImage -> true, width -> 139.392, resizeMode -> 3.0, cacheDisabled -> true, hideBufferIndicator -> true, showReplayButton -> false, height -> 247.808
+07-25 12:14:12.603 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setVideoData hideTimer -> true, thumbnail -> https://rukminim1.flixcart.com/fk-p-user/{@width}/{@height}/2gudsocialimages/b0db598a-c595-48f7-a1f4-8016f560dc5f.jpg?q={@quality}, src -> https://2gud-live-cdn.akamaized.net/media/fk-p-user-2gudsocial072022/social-multimedia/video/publish/3417745919487703006/manifest.m3u8, showPlayButton -> false, disableVolumeControl -> true, loopCount -> 1.0, disableDefaultPlaceholderImage -> true, width -> 139.392, resizeMode -> 3.0, cacheDisabled -> true, hideBufferIndicator -> true, showReplayButton -> false, height -> 247.808}
+07-25 12:14:12.604 10465 10465 I FKMediaViewManager: log: setPlayProgressDelay 1000
+07-25 12:14:12.604 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setPlayProgressDelay 1000}
+07-25 12:14:12.604 10465 10465 I FKMediaViewManager: log: setMuteState mute=true
+07-25 12:14:12.604 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setMuteState mute=true}
+07-25 12:14:12.604 10465 10465 I FKMediaViewManager: log: setVideoData hideTimer -> true, thumbnail -> https://rukminim1.flixcart.com/fk-p-user/{@width}/{@height}/2gudsocialimages/a6a1dc06-6432-436c-bd73-7e87b1880fc0.jpg?q={@quality}, src -> https://2gud-live-cdn.akamaized.net/media/fk-p-user-2gudsocial072022/social-multimedia/video/publish/5047671238862175589/manifest.m3u8, showPlayButton -> false, disableVolumeControl -> true, loopCount -> 1.0, disableDefaultPlaceholderImage -> true, width -> 139.392, resizeMode -> 3.0, cacheDisabled -> true, hideBufferIndicator -> true, showReplayButton -> false, height -> 247.808
+07-25 12:14:12.604 10465 10465 I newrelic: newrelic: {level=INFO,tag=FKMediaViewManager,message=log: setVideoData hideTimer -> true, thumbnail -> https://rukminim1.flixcart.com/fk-p-user/{@width}/{@height}/2gudsocialimages/a6a1dc06-6432-436c-bd73-7e87b1880fc0.jpg?q={@quality}, src -> https://2gud-live-cdn.akamaized.net/media/fk-p-user-2gudsocial072022/social-multimedia/video/publish/5047671238862175589/manifest.m3u8, showPlayButton -> false, disableVolumeControl -> true, loopCount -> 1.0, disableDefaultPlaceholderImage -> true, width -> 139.392, resizeMode -> 3.0, cacheDisabled -> true, hideBufferIndicator -> true, showReplayButton -> false, height -> 247.808}
+07-25 12:14:12.786 10465 10693 I AudioManager: getParameters keys = offloadVariableRateSupported
+07-25 12:14:12.800 10465 10693 W AudioCapabilities: Unsupported mime audio/x-ape
+07-25 12:14:12.801 10465 10693 W AudioCapabilities: Unsupported mime audio/x-ima
+07-25 12:14:12.801 10465 10693 W AudioCapabilities: Unsupported mime audio/mpeg-L1
+07-25 12:14:12.801 10465 10693 W AudioCapabilities: Unsupported mime audio/mpeg-L2
+07-25 12:14:12.801 10465 10693 W VideoCapabilities: Unsupported mime video/wvc1
+07-25 12:14:12.801 10465 10693 W VideoCapabilities: Unsupported mime video/x-ms-wmv
+07-25 12:14:12.807 10465 10693 W VideoCapabilities: Unrecognized profile/level 32768/256 for video/mp4v-es
+07-25 12:14:12.807 10465 10693 W VideoCapabilities: Unsupported mime video/apv
+07-25 12:14:12.807 10465 10693 W VideoCapabilities: Unsupported mime video/apv
+07-25 12:14:12.812 10465 10693 I DMCodecAdapterFactory: Creating an asynchronous MediaCodec adapter for track type video
+07-25 12:14:12.814 10465 10708 I CCodec  : state->set(ALLOCATING)
+07-25 12:14:12.815 10465 10709 I CCodec  : allocate(c2.exynos.h264.decoder)
+07-25 12:14:12.816 10465 10709 I Codec2Client: Available Codec2 services: "default" "default0" "software"
+07-25 12:14:12.817 10465 10709 I CCodec  : setting up 'default' as default (vendor) store
+07-25 12:14:12.821 10465 10709 I CCodec  : Created component [c2.exynos.h264.decoder]
+07-25 12:14:12.821 10465 10709 I CCodec  : [c2.exynos.h264.decoder] state->set(ALLOCATED)
+07-25 12:14:12.821 10465 10709 D CCodecConfig: read media type: video/avc
+07-25 12:14:12.822 10465 10709 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+07-25 12:14:12.822 10465 10709 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+07-25 12:14:12.823 10465 10709 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+07-25 12:14:12.823 10465 10709 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+07-25 12:14:12.824 10465 10709 D ReflectedParamUpdater: ignored struct field coded.color-format.locations
+07-25 12:14:12.825 10465 10709 D CCodecConfig: ignoring local param raw.size (0xd2001800) as it is already supported
+07-25 12:14:12.825 10465 10709 D CCodecConfig: ignoring local param default.color (0x5200180b) as it is already supported
+07-25 12:14:12.825 10465 10709 D ReflectedParamUpdater: ignored struct field raw.hdr-static-info.mastering
+07-25 12:14:12.826 10465 10709 I CCodecConfig: query failed after returning 15 values (BAD_INDEX)
+07-25 12:14:12.826 10465 10709 D CCodecConfig: c2 config diff is Dict {
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 algo.low-latency.value = 0
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::i32 algo.priority.value = 0
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::float algo.rate.value = 0
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 coded.pl.level = 20496
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 coded.pl.profile = 20481
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 coded.vui.color.matrix = 0
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 coded.vui.color.primaries = 0
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 coded.vui.color.range = 0
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 coded.vui.color.transfer = 0
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 default.color.matrix = 0
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 default.color.primaries = 0
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 default.color.range = 0
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 default.color.transfer = 0
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 7340032
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   string input.media-type.value = "video/avc"
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 output.delay.value = 8
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   string output.media-type.value = "video/raw"
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 raw.color.matrix = 0
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 raw.color.primaries = 0
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 raw.color.range = 0
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 raw.color.transfer = 0
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::float raw.hdr-static-info.max-cll = 0
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::float raw.hdr-static-info.max-fall = 0
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 raw.max-size.height = 240
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 raw.max-size.width = 320
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::u32 raw.pixel-format.value = 34
+07-25 12:14:12.826 10465 10709 D CCodecConfig:   c2::i32 raw.rotation.flip = 
+07-25 12:14:12.826 10465 10709 W ColorUtils: expected specified color aspects (0:0:0:0)
+07-25 12:14:12.827 10465 10708 I MediaCodec: MediaCodec will operate in async mode
+07-25 12:14:12.828 10465 10708 D SurfaceUtils: connecting to surface 0xb400006ea841eff0, reason connectToSurface
+07-25 12:14:12.828 10465 10708 I MediaCodec: [c2.exynos.h264.decoder] setting surface generation to 10716161
+07-25 12:14:12.828 10465 10708 D SurfaceUtils: disconnecting from surface 0xb400006ea841eff0, reason connectToSurface(reconnect)
+07-25 12:14:12.828 10465 10708 D SurfaceUtils: connecting to surface 0xb400006ea841efe0, reason connectToSurface(reconnect-with-listener)
+07-25 12:14:12.828 10465 10709 D CCodec  : [c2.exynos.h264.decoder] buffers are bound to CCodec for this session
+07-25 12:14:12.828 10465 10709 I CCodec  : appPid(10465) width(1296) height(432)
+07-25 12:14:12.829 10465 10709 D CCodecConfig: no c2 equivalents for csd-1
+07-25 12:14:12.829 10465 10709 D CCodecConfig: no c2 equivalents for log-session-id
+07-25 12:14:12.829 10465 10709 D CCodecConfig: no c2 equivalents for importance
+07-25 12:14:12.829 10465 10709 D CCodecConfig: no c2 equivalents for native-window
+07-25 12:14:12.829 10465 10709 D CCodecConfig: no c2 equivalents for native-window-generation
+07-25 12:14:12.829 10465 10709 D CCodecConfig: no c2 equivalents for flags
+07-25 12:14:12.829 10465 10709 D CCodecConfig: c2 config diff is   c2::u32 raw.max-size.height = 432
+07-25 12:14:12.829 10465 10709 D CCodecConfig:   c2::u32 raw.max-size.width = 1296
+07-25 12:14:12.829 10465 10709 D CCodecConfig:   c2::u32 raw.size.height = 432
+07-25 12:14:12.829 10465 10709 D CCodecConfig:   c2::u32 raw.size.width = 1296
+07-25 12:14:12.829 10465 10709 W Codec2Client: query -- param skipped: index = 1107298332.
+07-25 12:14:12.829 10465 10709 D CCodec  : client requested max input size 419904, which is smaller than what component recommended (7340032); overriding with component recommendation.
+07-25 12:14:12.829 10465 10709 W CCodec  : This behavior is subject to change. It is recommended that app developers double check whether the requested max input size is in reasonable range.
+07-25 12:14:12.829 10465 10709 D CCodec  : encoding statistics level = 0
+07-25 12:14:12.829 10465 10709 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t height = 432
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t level = 65536
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t max-input-size = 7340032
+07-25 12:14:12.829 10465 10709 D CCodec  :   string mime = "video/avc"
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t priority = 0
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t profile = 65536
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t width = 1296
+07-25 12:14:12.829 10465 10709 D CCodec  :   Rect crop(0, 0, 1295, 431)
+07-25 12:14:12.829 10465 10709 D CCodec  : }
+07-25 12:14:12.829 10465 10709 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t android._color-format = 2130708361
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t android._video-scaling = 1
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t rotation-degrees = 0
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t color-standard = 1
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t color-range = 2
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t color-transfer = 3
+07-25 12:14:12.829 10465 10709 D CCodec  :   float cta861.max-cll = 0.000000
+07-25 12:14:12.829 10465 10709 D CCodec  :   float cta861.max-fall = 0.000000
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t sar-height = 1
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t sar-width = 1
+07-25 12:14:12.829 10465 10709 D CCodec  :   Rect crop(0, 0, 1295, 431)
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t width = 1296
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t height = 432
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t max-height = 432
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t max-width = 1296
+07-25 12:14:12.829 10465 10709 D CCodec  :   string mime = "video/raw"
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t priority = 0
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t android._dataspace = 260
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t color-format = 2130708361
+07-25 12:14:12.829 10465 10709 D CCodec  :   int32_t p-extraBC = 6
+07-25 12:14:12.829 10465 10709 D CCodec  : }
+07-25 12:14:12.829 10465 10709 I CCodecConfig: query failed after returning 15 values (BAD_INDEX)
+07-25 12:14:12.830 10465 10693 D MediaCodec: keep callback message for reclaim
+07-25 12:14:12.830 10465 10708 I CCodec  : [c2.exynos.h264.decoder] state->set(STARTING)
+07-25 12:14:12.850 10465 10709 W Codec2Client: query -- param skipped: index = 1073743886.
+07-25 12:14:12.850 10465 10709 W Codec2Client: query -- param skipped: index = 1610614798.
+07-25 12:14:12.850 10465 10709 W Codec2Client: query -- param skipped: index = 1610614821.
+07-25 12:14:12.850 10465 10709 D C2Store : debug.c2.use_dmabufheaps set, forcing DMABUF Heaps
+07-25 12:14:12.850 10465 10709 D C2Store : Using DMABUF Heaps
+07-25 12:14:12.851 10465 10709 D CCodecBufferChannel: [c2.exynos.h264.decoder#221] Created input block pool with allocatorID 16 => poolID 17 - OK (0)
+07-25 12:14:12.851 10465 10709 I CCodecBufferChannel: [c2.exynos.h264.decoder#221] start: max output delay 15
+07-25 12:14:12.851 10465 10709 I CCodecBufferChannel: [c2.exynos.h264.decoder#221] Created output block pool with allocatorID 18 => poolID 62611 - OK
+07-25 12:14:12.852 10465 10709 D CCodecBufferChannel: [c2.exynos.h264.decoder#221] Configured output block pool ids 62611 => OK
+07-25 12:14:12.852 10465 10709 D Codec2-OutputBufferQueue: C2SurfaceSyncMemory created 20(20)
+07-25 12:14:12.852 10465 10709 D Codec2-OutputBufferQueue: remote graphic buffer migration 0/0
+07-25 12:14:12.852 10465 10709 D Codec2Client: setOutputSurface -- generation=10716161 consumer usage=0x900 sync
+07-25 12:14:12.852 10465 10709 D Codec2Client: Surface configure completed
+07-25 12:14:12.852 10465 10709 I CCodec  : [c2.exynos.h264.decoder] state->set(RUNNING)
+07-25 12:14:12.852 10465 10709 I DMABUFHEAPS: Using DMA-BUF heap named: system
+07-25 12:14:12.853 10465 10709 I CCodecBufferChannel: [c2.exynos.h264.decoder#221] 4 initial input buffers available
+07-25 12:14:12.856 10465 10708 I MediaCodec: setCodecState state(0), called in 6, domain 1, 1
+07-25 12:14:12.857 10465 10683 D skia    : Tiff header had invalid endian marker 0x45,0x78,0x69,0x66.
+07-25 12:14:12.857 10465 10701 D skia    : Tiff header had invalid endian marker 0x45,0x78,0x69,0x66.
+07-25 12:14:12.858 10465 10682 D skia    : Tiff header had invalid endian marker 0x45,0x78,0x69,0x66.
+07-25 12:14:12.858 10465 10683 D skia    : Tiff header had invalid endian marker 0x45,0x78,0x69,0x66.
+07-25 12:14:12.858 10465 10701 D skia    : Tiff header had invalid endian marker 0x45,0x78,0x69,0x66.
+07-25 12:14:12.858 10465 10682 D skia    : Tiff header had invalid endian marker 0x45,0x78,0x69,0x66.
+07-25 12:14:12.859 10465 10702 D skia    : Tiff header had invalid endian marker 0x45,0x78,0x69,0x66.
+07-25 12:14:12.860 10465 10702 D skia    : Tiff header had invalid endian marker 0x45,0x78,0x69,0x66.
+07-25 12:14:12.863 10465 10709 D CCodecConfig: c2 config diff is   c2::u32 output.delay.value = 11
+07-25 12:14:12.863 10465 10709 I CCodecBufferChannel: [c2.exynos.h264.decoder#221] updating max output delay 18
+07-25 12:14:12.863 10465 10709 D Codec2-OutputBufferQueue: set max dequeue count 18 from update
+07-25 12:14:12.865 10465 10713 D CCodecBufferChannel: [c2.exynos.h264.decoder#221] Ignoring stale input buffer done callback: last flush index = 0, frameIndex = 0
+07-25 12:14:12.866 10465 10709 I CCodecBufferChannel: [c2.exynos.h264.decoder#221] updating max output delay 18
+07-25 12:14:12.866 10465 10709 D Codec2-OutputBufferQueue: set max dequeue count 18 from update
+07-25 12:14:12.866 10465 10709 I CCodecBufferChannel: [c2.exynos.h264.decoder#221] updating max output delay 18
+07-25 12:14:12.866 10465 10709 D Codec2-OutputBufferQueue: set max dequeue count 18 from update
+07-25 12:14:12.871 10465 10709 D CCodecConfig: c2 config diff is   c2::u32 raw.crop.height = 432
+07-25 12:14:12.871 10465 10709 D CCodecConfig:   c2::u32 raw.crop.left = 0
+07-25 12:14:12.871 10465 10709 D CCodecConfig:   c2::u32 raw.crop.top = 0
+07-25 12:14:12.871 10465 10709 D CCodecConfig:   c2::u32 raw.crop.width = 1296
+07-25 12:14:12.876 10465 10708 I BLASTBufferQueue: [SurfaceView[com.flipkart.android/com.flipkart.android.activity.HomeFragmentHolderActivity]@0#2](f:0,a:0,s:0) onFrameAvailable the first frame is available
+07-25 12:14:12.876 10465 10708 I MediaCodec: setCodecState state(1), called in 6, domain 1, 1
+07-25 12:14:13.849 10465 10473 W lipkart.android: Cleared Reference was only reachable from finalizer (only reported once)
+07-25 12:14:13.884 10465 10473 I lipkart.android: Background concurrent mark compact GC freed 66MB AllocSpace bytes, 439(69MB) LOS objects, 63% free, 27MB/75MB, paused 749us,2.131ms total 143.238ms
+07-25 12:14:13.901 10465 10474 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: aj.r
+07-25 12:14:13.901 10465 10474 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-25 12:14:13.912 10465 10474 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: aj.r
+07-25 12:14:13.912 10465 10474 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-25 12:14:13.919 10465 10475 W lipkart.android: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~N7fwAzqVAJWhHrsSWkqZKg==/com.google.android.apps.nbu.paisa.user-rREUdhZ2Z_ym4I_BIEdThQ==/base.apk' with 2 weak references
+07-25 12:14:13.920 10465 10475 W lipkart.android: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~N7fwAzqVAJWhHrsSWkqZKg==/com.google.android.apps.nbu.paisa.user-rREUdhZ2Z_ym4I_BIEdThQ==/split_config.arm64_v8a.apk' with 2 weak references
+07-25 12:14:13.920 10465 10475 W lipkart.android: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~N7fwAzqVAJWhHrsSWkqZKg==/com.google.android.apps.nbu.paisa.user-rREUdhZ2Z_ym4I_BIEdThQ==/split_config.xxhdpi.apk' with 2 weak references
+07-25 12:14:13.920 10465 10475 W lipkart.android: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~cEJQJPWnZZ-2i4seSNVhMA==/com.phonepe.app-EuzayXaSITAzpkcOT-E8hQ==/base.apk' with 2 weak references
+07-25 12:14:13.921 10465 10475 W lipkart.android: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~cEJQJPWnZZ-2i4seSNVhMA==/com.phonepe.app-EuzayXaSITAzpkcOT-E8hQ==/split_config.arm64_v8a.apk' with 2 weak references
+07-25 12:14:13.921 10465 10475 W lipkart.android: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~cEJQJPWnZZ-2i4seSNVhMA==/com.phonepe.app-EuzayXaSITAzpkcOT-E8hQ==/split_config.xxhdpi.apk' with 2 weak references
+07-25 12:14:13.926 10465 10475 W System  : A resource failed to call AbstractCursor.close. 
+07-25 12:14:13.926 10465 10475 W System  : A resource failed to call CursorWrapperInner.close. 
+07-25 12:14:13.927 10465 10475 W lipkart.android: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~aGzA_1Z5QF3J_1QBGO3QHQ==/com.google.android.webview-rfhONeC4KSuFBVN-kL4W2g==/base.apk' with 2 weak references
+07-25 12:14:15.938 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: onDisplayChanged oldDisplayState=2 newDisplayState=2
+07-25 12:14:17.626 10465 10773 D ProfileInstaller: Skipping profile installation for com.flipkart.android
+07-25 12:14:18.157 10465 10713 D BufferPoolAccessor2.0: bufferpool2 0xb400006e08417f08 : 5(36700160 size) total buffers - 5(36700160 size) used buffers - 171/176 (recycle/alloc) - 5/179 (fetch/transfer)
+07-25 12:14:19.024 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: onDisplayChanged oldDisplayState=2 newDisplayState=2
+07-25 12:14:19.465 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: onDisplayChanged oldDisplayState=2 newDisplayState=2
+07-25 12:14:23.534 10465 10713 D BufferPoolAccessor2.0: bufferpool2 0xb400006e08417f08 : 5(36700160 size) total buffers - 5(36700160 size) used buffers - 331/336 (recycle/alloc) - 5/345 (fetch/transfer)
+07-25 12:14:28.840 10465 10713 D BufferPoolAccessor2.0: bufferpool2 0xb400006e08417f08 : 5(36700160 size) total buffers - 5(36700160 size) used buffers - 491/496 (recycle/alloc) - 5/509 (fetch/transfer)
+07-25 12:14:34.180 10465 10713 D BufferPoolAccessor2.0: bufferpool2 0xb400006e08417f08 : 5(36700160 size) total buffers - 5(36700160 size) used buffers - 651/656 (recycle/alloc) - 5/674 (fetch/transfer)
+07-25 12:14:39.520 10465 10713 D BufferPoolAccessor2.0: bufferpool2 0xb400006e08417f08 : 5(36700160 size) total buffers - 5(36700160 size) used buffers - 811/816 (recycle/alloc) - 5/839 (fetch/transfer)
+07-25 12:14:44.854 10465 10713 D BufferPoolAccessor2.0: bufferpool2 0xb400006e08417f08 : 5(36700160 size) total buffers - 5(36700160 size) used buffers - 971/976 (recycle/alloc) - 5/1002 (fetch/transfer)
+07-25 12:14:50.200 10465 10713 D BufferPoolAccessor2.0: bufferpool2 0xb400006e08417f08 : 5(36700160 size) total buffers - 5(36700160 size) used buffers - 1131/1136 (recycle/alloc) - 5/1162 (fetch/transfer)
+07-25 12:14:55.536 10465 10713 D BufferPoolAccessor2.0: bufferpool2 0xb400006e08417f08 : 5(36700160 size) total buffers - 5(36700160 size) used buffers - 1291/1296 (recycle/alloc) - 5/1324 (fetch/transfer)
+07-25 12:15:00.152 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: onDisplayChanged oldDisplayState=2 newDisplayState=2
+07-25 12:15:00.822 10465 10713 D BufferPoolAccessor2.0: bufferpool2 0xb400006e08417f08 : 5(36700160 size) total buffers - 5(36700160 size) used buffers - 1451/1456 (recycle/alloc) - 5/1490 (fetch/transfer)
+07-25 12:15:01.324 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: onDisplayChanged oldDisplayState=2 newDisplayState=2
+07-25 12:15:06.183 10465 10713 D BufferPoolAccessor2.0: bufferpool2 0xb400006e08417f08 : 5(36700160 size) total buffers - 5(36700160 size) used buffers - 1611/1616 (recycle/alloc) - 5/1654 (fetch/transfer)
+07-25 12:15:10.366 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: onDisplayChanged oldDisplayState=2 newDisplayState=2
+07-25 12:15:11.621 10465 10713 D BufferPoolAccessor2.0: bufferpool2 0xb400006e08417f08 : 6(44040192 size) total buffers - 5(36700160 size) used buffers - 1774/1780 (recycle/alloc) - 6/1822 (fetch/transfer)
+07-25 12:15:11.799 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: onDisplayChanged oldDisplayState=2 newDisplayState=2
+07-25 12:15:11.832 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: onDisplayChanged oldDisplayState=2 newDisplayState=2
+07-25 12:15:12.156 10465 10532 I newrelic: UI has become hidden (app backgrounded)
+07-25 12:15:12.156 10465 10610 I ReactNativeJNI: Memory warning (pressure level: TRIM_MEMORY_UI_HIDDEN) received by JS VM, ignoring because it's non-severe
+07-25 12:15:12.156 10465 10532 I newrelic: AndroidAgentImpl: application backgrounded
+07-25 12:15:12.159 10465 10516 D HWUI    : CacheManager::trimMemory(20)
+07-25 12:15:12.169 10465 11024 W libEGL  : Couldn't find an OpenGL ES implementation from 
+07-25 12:15:12.199 10465 10584 I newrelic: Harvester: connected
+07-25 12:15:12.199 10465 10584 I newrelic: Harvester: Sending [41] HTTP transactions.
+07-25 12:15:12.199 10465 10584 I newrelic: Harvester: Sending [0] activity traces.
+07-25 12:15:12.199 10465 10584 I newrelic: Harvester: Sending [33] session attributes.
+07-25 12:15:12.199 10465 10584 I newrelic: Harvester: Sending [546] analytics events.
+07-25 12:15:12.206 10465 11024 V XGL     : ----------------------------------------------------------------------
+07-25 12:15:12.206 10465 11024 V XGL     : SUMD version compiled date     = 2025-03-11 10:23 - KST
+07-25 12:15:12.206 10465 11024 V XGL     : SUMD version revision number   = e5014ade39
+07-25 12:15:12.206 10465 11024 V XGL     : SUMD version info              = Driver version: 24.3.9, git hash: e5014ade39
+07-25 12:15:12.206 10465 11024 V XGL     : ----------------------------------------------------------------------
+07-25 12:15:12.206 10465 11024 V XGL     : Entering: Create
+07-25 12:15:12.231 10465 11024 I XGL     : ShaderCache::PopulateIndexMap : 240/240 passed, result: 1
+07-25 12:15:12.231 10465 11024 V XGL     : Exiting: Create
+07-25 12:15:12.236 10465 11024 I vulkan  : CreateInfoWrapper::FilterExtension: already have 'VK_KHR_external_fence_fd'.
+07-25 12:15:12.244 10465 11024 I ANGLE   : Version (24.1.265 git hash: 24f47ea4b93e), Renderer (ANGLE (Samsung Xclipse 940) on Vulkan 1.3.279)
+07-25 12:15:12.249 10465 10708 D SurfaceUtils: connecting to surface 0xb400006ea84145a0, reason connectToSurface
+07-25 12:15:12.249 10465 10708 I MediaCodec: [c2.exynos.h264.decoder] setting surface generation to 10716162
+07-25 12:15:12.249 10465 10708 D SurfaceUtils: disconnecting from surface 0xb400006ea84145a0, reason connectToSurface(reconnect)
+07-25 12:15:12.250 10465 10708 D SurfaceUtils: connecting to surface 0xb400006ea8414590, reason connectToSurface(reconnect-with-listener)
+07-25 12:15:12.250 10465 10708 D Codec2-OutputBufferQueue: C2SurfaceSyncMemory created 20(20)
+07-25 12:15:12.250 10465 10708 D Codec2-OutputBufferQueue: remote graphic buffer migration 13/13
+07-25 12:15:12.250 10465 10708 D Codec2Client: setOutputSurface -- generation=10716162 consumer usage=0x900 sync
+07-25 12:15:12.252 10465 10708 D Codec2Client: Surface configure completed
+07-25 12:15:12.252 10465 10708 D SurfaceUtils: disconnecting from surface 0xb400006ea841eff0, reason disconnectFromSurface
+07-25 12:15:12.254 10465 10465 I SurfaceView@d71a5c9: onWindowVisibilityChanged(8) false android.view.SurfaceView{d71a5c9 V.E...... ........ 0,0-990,330} of VRI[HomeFragmentHolderActivity]@ce54e4c
+07-25 12:15:12.254 10465 10465 I SurfaceView: 225551817 Changes: creating=false format=false size=false visible=true alpha=false hint=false visible=true left=false top=false z=false attached=true lifecycleStrategy=false
+07-25 12:15:12.254 10465 10465 I SurfaceView: 225551817 Cur surface: Surface(name=null mNativeObject=-5476376671613261920)/@0xc8a077
+07-25 12:15:12.254 10465 10465 I SurfaceView@d71a5c9: updateSurface: mVisible = false mSurface.isValid() = true
+07-25 12:15:12.254 10465 10465 I SurfaceView@d71a5c9: updateSurface: mSurfaceCreated = true surfaceChanged = false visibleChanged = true
+07-25 12:15:12.254 10465 10465 V SurfaceView: Layout: x=45 y=1990 w=990 h=330, frame=Rect(0, 0 - 990, 330)
+07-25 12:15:12.254 10465 10465 I SurfaceView: 225551817 Detaching SV
+07-25 12:15:12.254 10465 10465 I SurfaceView: 225551817 Changes: creating=false format=false size=false visible=false alpha=false hint=false visible=false left=false top=false z=false attached=false lifecycleStrategy=false
+07-25 12:15:12.254 10465 10465 I SurfaceView: 225551817 Cur surface: Surface(name=null mNativeObject=-5476376671613261920)/@0xc8a077
+07-25 12:15:12.254 10465 10465 I SurfaceView: 225551817 surfaceDestroyed
+07-25 12:15:12.254 10465 10465 I SurfaceView@d71a5c9: surfaceDestroyed callback.size 0 #4 android.view.SurfaceView{d71a5c9 V.E...... ........ 0,0-990,330}
+07-25 12:15:12.254 10465 10465 I SurfaceView@d71a5c9: updateSurface: mVisible = false mSurface.isValid() = true
+07-25 12:15:12.254 10465 10465 I SurfaceView@d71a5c9: releaseSurfaces: viewRoot = VRI[HomeFragmentHolderActivity]@ce54e4c
+07-25 12:15:12.255 10465 10465 V SurfaceView: Layout: x=45 y=1990 w=990 h=330, frame=Rect(0, 0 - 990, 330)
+07-25 12:15:12.255 10465 10465 I SurfaceView@d71a5c9: onDetachedFromWindow: tryReleaseSurfaces()
+07-25 12:15:12.255 10465 10465 I SurfaceView@d71a5c9: releaseSurfaces: viewRoot = VRI[HomeFragmentHolderActivity]@ce54e4c
+07-25 12:15:12.263 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: registerCallbackForPendingTransactions
+07-25 12:15:12.266 10465 10516 D SurfaceView: 207242618 windowPositionLost, frameNr = 1939
+07-25 12:15:12.267 10465 10534 I VRI[HomeFragmentHolderActivity]@ce54e4c: mWNT: t=0xb400006d385f9a90 mBlastBufferQueue=0xb400006e7836fdb0 fn= 1939 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$9.onFrameDraw:6276 android.view.ViewRootImpl$3.onFrameDraw:2440 android.view.ThreadedRenderer$1.onFrameDraw:761 
+07-25 12:15:12.267 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: handleAppVisibility mAppVisible = true visible = false
+07-25 12:15:12.267 10465 10465 D VRI[HomeFragmentHolderActivity]@ce54e4c: visibilityChanged oldVisibility=true newVisibility=false
+07-25 12:15:12.268 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: onDisplayChanged oldDisplayState=2 newDisplayState=1
+07-25 12:15:12.270 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: stopped(true) old = false
+07-25 12:15:12.270 10465 10465 D VRI[HomeFragmentHolderActivity]@ce54e4c: WindowStopped on com.flipkart.android/com.flipkart.android.activity.HomeFragmentHolderActivity set to true
+07-25 12:15:12.272 10465 10516 D HWUI    : CacheManager::trimMemory(20)
+07-25 12:15:12.301 10465 10516 D HWUI    : CacheManager::trimMemory(20)
+07-25 12:15:12.307 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)8 dur=4 res=0x2 s={false 0x0} ch=false seqId=0
+07-25 12:15:12.307 10465 10465 D VRI[HomeFragmentHolderActivity]@ce54e4c: Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility
+07-25 12:15:12.339 10465 10465 I ImeFocusController: onPreWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+07-25 12:15:12.343 10465 10465 I ImeFocusController: onPostWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+07-25 12:15:12.345 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: onDisplayChanged oldDisplayState=1 newDisplayState=1
+07-25 12:15:12.589 10465 10532 W newrelic: Agent stopped with 1 events left in event pool.
+07-25 12:15:12.589 10465 10532 W newrelic: Event manager is shutting down with [1] events remaining in the queue
+07-25 12:15:12.589 10465 10532 I newrelic: Analytics Controller shutdown
+07-25 12:15:12.590 10465 10532 I newrelic: Measurement Engine shutting down.
+07-25 12:15:12.876 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: onDisplayChanged oldDisplayState=1 newDisplayState=3
+07-25 12:15:13.122 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: onDisplayChanged oldDisplayState=3 newDisplayState=3
+07-25 12:15:13.896 10465 10708 I MediaCodec: setCodecState state(0), called in 6, domain 1, 1
+07-25 12:15:14.180 10465 11023 I FA      : Application backgrounded at: timestamp_millis: 1753425912177
+07-25 12:15:15.135 10465 10473 I lipkart.android: Background concurrent mark compact GC freed 46MB AllocSpace bytes, 50(2640KB) LOS objects, 59% free, 32MB/80MB, paused 3.065ms,7.983ms total 347.925ms
+07-25 12:15:16.666 10465 11094 W newrelic: Analytics controller is not initialized!
+07-25 12:15:16.667 10465 11023 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Push Notification
+07-25 12:15:16.667 10465 11023 E FA      : Invalid public event name. Event will not be logged (FE): Push Notification
+07-25 12:15:16.682 10465 11094 W newrelic: Analytics controller is not initialized!
+07-25 12:15:16.684 10465 11023 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Push Notification
+07-25 12:15:16.684 10465 11023 E FA      : Invalid public event name. Event will not be logged (FE): Push Notification
+07-25 12:15:17.089 10465 11095 D nativeloader: Load /data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/lib/arm64/libnative-imagetranscoder.so using ns clns-7 from class loader (caller=/data/app/~~delSMetEMhs5CbG55ag8ZQ==/com.flipkart.android-cwMGpr6vBiw-DlwdrbfdRg==/base.apk): ok
+07-25 12:15:17.109 10465 10667 W newrelic: Analytics controller is not initialized!
+07-25 12:15:17.109 10465 11023 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Push Notification
+07-25 12:15:17.109 10465 11023 E FA      : Invalid public event name. Event will not be logged (FE): Push Notification
+07-25 12:15:17.114 10465 10465 I NotificationManager: com.flipkart.android: notify(-249482519, RlPfWV0O8H4sYcW9, Notification(channel=prodfeedback shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=0 color=0xff4f8df3 vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0)) as user
+07-25 12:15:17.115 10465 10465 D NotificationManager: BOOTING pkg =com.flipkart.android mBlockedChannelsForOverflowNoti=[]
+07-25 12:15:17.878 10465 10712 D BufferPoolAccessor2.0: bufferpool2 0xb400006e08417f08 : 6(44040192 size) total buffers - 4(29360128 size) used buffers - 1796/1802 (recycle/alloc) - 7/1847 (fetch/transfer)
+07-25 12:15:17.879 10465 10712 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+07-25 12:15:18.459 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: onDisplayChanged oldDisplayState=3 newDisplayState=4
+07-25 12:15:18.461 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: onDisplayChanged oldDisplayState=4 newDisplayState=4
+07-25 12:15:27.079 10465 10473 I lipkart.android: Background concurrent mark compact GC freed 48MB AllocSpace bytes, 11(348KB) LOS objects, 59% free, 33MB/81MB, paused 3.024ms,8.728ms total 341.936ms
+07-25 12:15:33.104 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: onDisplayChanged oldDisplayState=4 newDisplayState=3
+07-25 12:15:33.128 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: onDisplayChanged oldDisplayState=3 newDisplayState=3
+07-25 12:15:38.619 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: onDisplayChanged oldDisplayState=3 newDisplayState=4
+07-25 12:15:38.630 10465 10465 I VRI[HomeFragmentHolderActivity]@ce54e4c: onDisplayChanged oldDisplayState=4 newDisplayState=4
